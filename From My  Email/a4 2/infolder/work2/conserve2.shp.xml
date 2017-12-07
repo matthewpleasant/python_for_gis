@@ -1,0 +1,2725 @@
+<?xml version="1.0"?>
+<metadata xml:lang="en"><Esri><CreaDate>20120930</CreaDate><CreaTime>17374500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20120930</SyncDate><SyncTime>17190900</SyncTime><ModDate>20120930</ModDate><ModTime>17190900</ModTime><PublishStatus>Published</PublishStatus><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Select" Date="20090907" Time="122253">Select blkgrp2000_sum3 C:\Teaching\courses\GISNM\sep8\blkgrp2000_sum3_polk.shp ""COUNTY" = '105'"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090907" Time="123804">CopyFeatures C:\Teaching\courses\GISNM\sep8\blockgroups.shp C:\Teaching\courses\GISNM\sep8\Polk.mdb\SoccerData\blockgroups # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20090907" Time="140854">Dissolve blockgroups C:\gisnm_sep8\Polk.mdb\SoccerData\tracts TRACT "POP2000 SUM;BELOW_POV SUM" MULTI_PART DISSOLVE_LINES</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20120930" Time="171909">Dissolve tracts C:\class4\Polk.mdb\SoccerData\tracts_Dissolve TRACT # MULTI_PART DISSOLVE_LINES</Process></lineage><itemProps><itemName Sync="TRUE">tracts_Dissolve</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\C007647-LAP\C$\class4\work2\conserve2</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">Albers Conical Equal Area (Florida Geographic Data Library)</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;Albers Conical Equal Area (Florida Geographic Data Library)&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983_HARN&amp;quot;,DATUM[&amp;quot;D_North_American_1983_HARN&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-84.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,24.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,31.5],PARAMETER[&amp;quot;Central_Parallel&amp;quot;,24.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-19550100&lt;/XOrigin&gt;&lt;YOrigin&gt;-7526400&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><copyHistory><copy source="C:\class4\conserve2" dest="\\C007647-LAP\C$\class4\work2\conserve2" date="20120930" time="17374500"></copy></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><idinfo><native>Data was recieved on CD from the U.S. Department of Commerce, Bureau of Census.</native><descript><langdata Sync="TRUE">en</langdata><abstract>This dataset contains 2000 Census Block Groups as they are defined by the Bureau of the Census. The data contains selected fields from the Summary 3 file that includes information on total population, race, sex, age, and economic and housing characteristics.  This data is compiled from a sample of approximately 19 million housing units (about 1 in 6 households) that received the Census 2000 long-form questionnaire. Census Block Groups are geographic entities made up of Census Blocks and that are contained within the same Census Tract. Block Groups generally contain between 600 and 3,000 people, with an optimum size of 1,500 people.
+</abstract><purpose>For the research and analysis of 2000 Census Block Groups as they are defined by the Bureau of the Census. The data contains selected fields from the Summary 3 file that includes information on total population, race, sex, age, and economic and housing characteristics.  This data is compiled from a sample of approximately 19 million housing units (about 1 in 6 households) that received the Census 2000 long-form questionnaire. Census Block Groups are geographic entities made up of Census Blocks and that are contained within the same Census Tract. Block Groups generally
+contain between 600 and 3,000 people, with an optimum size of 1,500 people.
+
+</purpose><supplinf>POLYGON</supplinf></descript><citation><citeinfo><origin>U.S. Department of Commerce, Bureau of the Census</origin><pubdate>2000</pubdate><title>US CENSUS BLOCK GROUPS - 2000 </title><ftname Sync="TRUE">tracts</ftname><geoform>Shapefile</geoform><onlink>http://www.census.gov/ftp/pub/geo/www/tiger</onlink><onlink>http://www.esri.com/data/download/census2000_tigerline/index.html</onlink><pubinfo><publish>U.S. Department of Commerce, Bureau of the Census</publish></pubinfo></citeinfo></citation><timeperd><current>publication date</current><timeinfo><sngdate><caldate>2000</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-87.429040</westbc><eastbc>-79.872251</eastbc><northbc>30.983191</northbc><southbc>24.492815</southbc></bounding><lboundng><leftbc Sync="TRUE">52649.632442</leftbc><rightbc Sync="TRUE">799725.485391</rightbc><bottombc Sync="TRUE">45682.204495</bottombc><topbc Sync="TRUE">781583.211562</topbc></lboundng></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>society</themekey></theme></keywords><accconst>NONE</accconst><useconst>NONE</useconst><ptcontac><cntinfo><cntemail>Web site:
+http://www.fgdl.org</cntemail><cntemail>Technical Support:
+http://www.fgdl.org/fgdlfeed.html</cntemail><cntemail>For FGDL Software:
+http://www.fgdl.org/software.html</cntemail><cntemail>FGDL Frequently Asked Questions:
+http://www.fgdl.org/fgdlfaq.html</cntemail><cntemail>Mailing list for FGDL:
+http://www.fgdl.org/fgdl-l.html</cntemail><cntaddr><addrtype>mailing address</addrtype><address>431 Architecture PO Box 115706</address><city>Gainesville</city><state>Florida</state><postal>32611-5706</postal><cntemail>For FGDL Software: http://www.fgdl.org/software.html</cntemail></cntaddr><cntorgp><cntorg>Florida Geographic Data Library (FGDL)</cntorg><cntemail>Web site: http://www.fgdl.org</cntemail></cntorgp></cntinfo></ptcontac><natvform Sync="TRUE">Personal GeoDatabase Feature Class</natvform></idinfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">tracts_Dissolve</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="native"><westBL Sync="TRUE">52649.632442</westBL><eastBL Sync="TRUE">799725.485391</eastBL><northBL Sync="TRUE">781583.211562</northBL><southBL Sync="TRUE">45682.204495</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-87.639411</westBL><eastBL Sync="TRUE">-79.812215</eastBL><northBL Sync="TRUE">31.042638</northBL><southBL Sync="TRUE">24.354693</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><metainfo><langmeta Sync="TRUE">en</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metc><cntinfo><cntorgp><cntorg>UNITED STATES CENSUS BUREAU</cntorg></cntorgp><cntaddr><addrtype>physical address</addrtype><city>Washington</city><state>D.C.  </state><postal>20233</postal><address>Tiger Mapping Service</address></cntaddr><cntvoice>(301) 457-1128 (Geography)</cntvoice><cntvoice>(301) 457-4100 (Customer Service)                       </cntvoice><cntemail>Tiger@census.gov</cntemail><cntpos>Products and Services Staff, Geography Division</cntpos></cntinfo></metc><metd Sync="TRUE">20090907</metd></metainfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distinfo><distliab> THE FGDL DATA AS PROVIDED BY CONTRIBUTING ORGANIZATIONS AND ANY PROGRAMMING SOFTWARE CREATED BY THE UNIVERSITY OF FLORIDA GEOPLAN CENTER (COLLECTIVELY THE 'MATERIALS') ARE COPYRIGHTED BY THE UNIVERSITY OF FLORIDA GEOPLAN CENTER FOR THE FGDL CONTRIBUTING AGENCIES AND ORGANIZATIONS (THE 'DATA PROVIDERS').  DO NOT REPRODUCE, REDISTRIBUTE OR RESELL THE MATERIALS, OR PROVIDE THE MATERIALS FOR FREE TO CUSTOMERS OR CLIENTS, OR PLACE THE MATERIALS FOR DOWNLOAD ON A WEBSITE. ADDITIONALLY, WHEN USING FGDL DATA OR SOFTWARE IN PROJECTS, MAPS, ETC.; YOU AGREE TO ACKNOWLEDGE THE FGDL AS A DATA SOURCE. THE MATERIALS ARE PROVIDED AS IS.THE UNIVERSITY OF FLORIDA GEOPLAN CENTER MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE QUALITY OR SUITABILITY OF THE MATERIALS, EITHER EXPRESSLY OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.THE UNIVERSITY OF FLORIDA GEOPLAN CENTER MAKES NO WARRANTIES, GUARANTIES OR REPRESENTATIONS AS TO THE TRUTH, ACCURACY OR COMPLETENESS OF THE DATA PROVIDED BY THE FGDL CONTRIBUTING ORGANIZATIONS. THE UNIVERSITY OF FLORIDA GEOPLAN CENTER SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED AS A RESULT OF USING, MODIFYING, CONTRIBUTING OR DISTRIBUTING THE MATERIALS.</distliab><resdesc>Downloadable Data </resdesc><distrib><cntinfo><cntorgp><cntorg>Florida Geographic Data Library (FGDL)</cntorg></cntorgp><cntaddr><addrtype>mailing address</addrtype><address>431 Architecture PO Box 115706</address><city>Gainesville</city><state>Florida</state><postal>32611-5706</postal><country>United States</country></cntaddr><cntemail>Web site:
+http://www.fgdl.org</cntemail><cntemail>Technical Support:
+http://www.fgdl.org/fgdlfeed.html</cntemail><cntemail>For FGDL Software:
+http://www.fgdl.org/software.html</cntemail><cntemail>FGDL Frequently Asked Questions:
+http://www.fgdl.org/fgdlfaq.html</cntemail><cntemail>Mailing list for FGDL:
+http://www.fgdl.org/fgdl-l.html</cntemail></cntinfo></distrib><stdorder><digform><digtinfo><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo></digform></stdorder></distinfo><dataqual><attracc><attraccr>Relied on the integrity of the attribute information within the original data layer.</attraccr><qattracc><attracce>Scale is an important factor in data usage.  Certain scale datasets are not suitable for some project, analysis, or modelling purposes.  Please be sure you are using the best available data.
+
+1:24000 scale datasets are recommended for projects that are at the county level.  1:24000 data should NOT be used for high accuracy base mapping such as property parcel boundaries.
+
+1:100000 scale datasets are recommended for projects that are at the multi-county or regional level.  1:125000 scale datasets are recommended for projects that are at the regional or state level or larger.
+
+Vector datasets with no defined scale or accuracy should be considered suspect.  Make sure you are familiar with your data before using it for projects or analysis.  Every effort has been made to supply the user with data documentation.  For additional information, see the References section and the Data Source Contact section of this documentation.  For more information regarding scale and accuracy, see our webpage at:  http://geoplan.ufl.edu/education.html.  These data are based on interpretation of available information and should not be construed as legally binding.</attracce></qattracc><qattracc><attracce>BLOCK GROUP (as defined by US Census Bureau) A block group consists of all census blocks having the same
+first digit of their four-digit identifying numbers within a census tract. For example, block group 3 (BG 3) within a census tract includes all blocks numbered from 3000 to 3999. BGs generally contain between 600 and 3,000 people, with an optimum size of 1,500 people. BGs on American Indian reservations, offreservation trust lands, and special places must contain a minimum of 300 people. (Special places include correctional institutions, military installations, college campuses, workerüs dormitories, hospitals, nursing homes, and group homes.) Most BGs were delineated by local participants as part of the U.S. Census Bureauüs Participant Statistical Areas Program. The U.S. Census Bureau delineated BGs only where a local, state, or tribal government declined to participate or where the U.S.
+Census Bureau could not identify a potential local or tribal participant. 
+BGs never cross the boundaries of states, counties, or statistically equivalent entities, except for a BG delineated by American Indian tribal authorities, and then only when tabulated within the American Indian hierarchy (see TRIBAL BLOCK GROUP). BGs never cross the boundaries of census tracts, but may cross the boundary of any other geographic entity required as a census block boundary (see CENSUS BLOCK). 
+In decennial census data tabulations, a BG may be split to present data for every unique combination of American Indian area, Alaska Native area, Hawaiian home land, congressional district, county subdivision, place, voting district, or other tabulation entity shown in the data products. 
+For example, if BG 3 is partly in a city and partly outside the city, there are separate tabulated records for each portion of BG 3. BGs are used in tabulating data nationwide, as was done for the 1990 census, for all block-numbered areas in the 1980 census, and for selected areas in the 1970 census. For data presentation purposes, BGs are a substitute for the enumeration districts (EDs) used for reporting data in many parts of the United States for the 1970 and 1980 censuses and in all areas before 1970. Also, BGs are the lowest level of the geographic hierarchy for which the U.S. Census Bureau tabulates and presents sample data.</attracce></qattracc></attracc><logic>Relied on the integrity of the attribute information within the original data layer.</logic><complete>Relied on the integrity of the attribute information within the original data layer.</complete><lineage><srcinfo><typesrc>MAP</typesrc><srccurr>Publication date</srccurr><srccontr>Spatial and Attribute Information</srccontr><srccite><citeinfo><origin>U.S. Department of Commerce, Bureau of the Census</origin><pubdate>2000</pubdate><title>US CENSUS BLOCK GROUPS - 2000 </title></citeinfo></srccite><srcscale>1:100,000</srcscale><srctime><timeinfo><sngdate><caldate>2000</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>US CENSUS</srccitea></srcinfo><procstep><procdate>2003</procdate><procdesc>GeoPlan during the QA/QC process included the following aspects:
+
+Data was originally released by US Census Bureau in 2000. Data was downloaded by 
+GeoPlan in shapefile format from ESRI (http://www.esri.com/data/download/census2000_tigerline/index.html).
+When received, data was in Geographic projection, Datum: NAD83, Spheroid: GRS1980,
+Units: Decimal degrees.  The data was then projected to FGDL Albers HPGN. Next, the counties were merged to the State exten, and  joined table SF1 to blkgrp00.dbf based on attribute STFID.</procdesc></procstep></lineage><posacc><horizpa/></posacc></dataqual><spref><horizsys><planar><planci><plance>coordinate pair</plance><coordrep><absres>0.002048</absres><ordres>0.002048</ordres></coordrep><plandu>meters</plandu></planci></planar><cordsysn><projcsn>Albers Conical Equal Area</projcsn><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn></cordsysn><geodetic><horizdn>D_North_American_1983_HARN</horizdn><ellips>Geodetic Reference System 80</ellips><semiaxis>6378137.000000</semiaxis><denflat>298.257222</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\C003655\C$\gisnm_sep8\Polk.mdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Personal GeoDatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Personal GeoDatabase Feature Class</formatName></distFormat></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="tracts_Dissolve"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" value="0">Albers Conical Equal Area (Florida Geographic Data Library)</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="tracts_Dissolve"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><eainfo><detailed Name="tracts_Dissolve"><enttyp><enttypl Sync="TRUE">tracts_Dissolve</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc><enttypd>.DBF</enttypd><enttypds>FGDL</enttypds></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Data attribute inherent to the ESRI shapefile format, which defines the data as a point, polyline, or polygon.</attrdef><attrdefs>FGDL</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">TRACT</attrlabl><attalias Sync="TRUE">TRACT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><attrdef>SEE OVERVIEW DESCRIPTION</attrdef><attrdefs>CENSUS</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed><overview><eaover>The definitions of items in BLKGRP2000_SUM3.DBF:
+
+ID		Internal Id
+
+FIPSSTCO	1990 population
+
+TRACT		2000 Census Tract
+
+GROUP		2000 Block Group
+
+STFID		State + County + Tract + Block FIPS
+
+STATE		State
+
+COUNTY		County
+
+WHITE		White alone  (P006002)
+
+BLACK		Black or african american alone (P006003)
+
+AMERI_ES	American indian and alaska native alone  (P006004)
+
+ASIAN		Asian alone  (P006005)
+
+HAWN_PI	Native hawaiian and other pacific islander alone  (P006006)
+
+OTHER		Some other race alone  (P006007)
+
+MULT_RACE	2 or more races (P006008)
+
+HISPANIC	People who are hispanic or latino (P007010)
+
+AGE_UNDER5	Male and female under 5 ([P008003] + [P008004] + [P008005] + [P008006] + [P008007] + [P008042] + [P008043] + [P008044] + [P008045] + [P008046])
+
+AGE_5_17	Male and female 5 to 17 yrs   ([P008008] + [P008009] + [P008010] + [P008011] + [P008012] + [P008013] + [P008014] + [P008015] + [P008016] + [P008017] + [P008018] + [P008019] + [P008020] + [P008047] + [P008048] + [P008049] + [P008050] + [P008051] + [P008052] + [P008053] + [P008054] + [P008055] + [P008056] + [P008057] + [P008058] + [P008059])
+
+AGE_18_21	Male and female 18 to 21 yrs   ([P008021] + [P008022] + [P008023] + [P008024] + [P008060] + [P008061] + [P008062] + [P008063])
+
+AGE_22_29	Male and female 22 to 29 yrs  ([P008025] + [P008026] + [P008064] + [P008065])
+
+AGE_30_39	Male and female 30 to 39 yrs   ([P008027] + [P008028] + [P008066] + [P008067])
+
+AGE_40_49	Male and female 40 to 49 yrs   ([P008029] + [P008030] + [P008068] + [P008069])
+
+AGE_50_64	Male and female 50 to 64 yrs   ([P008031] + [P008032] + [P008033] + [P008034] + [P008070] + [P008071] + [P008072] + [P008073])
+
+AGE_65_UP	Male and female 65 yrs and over   ([P008035] + [P008036] + [P008037] + [P008038] + [P008039] + [P008040]+ [P008074] + [P008075] + [P008076] + [P008077] + [P008078] + [P008079])
+
+AVE_HH_SZ	Average household size ([P009002]/[P010001])
+
+FAMILIES	Families (P010006)
+
+AVE_FAM_SZ	Average family size  ([P009003]/[P010006])
+
+DISABLED	Universe: Total disabilities (P041001)
+
+TOTAL_INC	Total: Income (P052001)
+
+LESS_10K	Less than $10,000  (P052002)
+
+I10K_14K	                $10,000 to $14,999  (P052003)
+
+I15K_19K  	$15,000 to $19,999 (P052004)
+
+I20K_24K 	$20,000 to $24,999  (P052005)
+
+I25K_29K	                $25,000 to $29,999  (P052006)
+
+I30K_34K 	$30,000 to $34,999 (P052007)
+
+I35K_39K	                $35,000 to $39,999 (P052008)
+
+I40K_44K	                $40,000 to $44,999  (P052009)
+
+I45K_49K	                $45,000 to $49,999  (P052010)
+
+I50K_59K 	$50,000 to $59,999  (P052011)
+
+I60K_74K 	$60,000 to $74,999 (P052012)
+
+I75K_99K 	$75,000 to $99,999  (P052013)
+
+I100K_124K	$100,000 to $124,999  (P052014)
+
+I125K_149K	$125,000 to $149,999  (P052015)
+
+I150K_199K	$150,000 to $199,999  (P052016)
+
+I200KMORE	$200,000 or more  (P052017)
+
+ABVE_BELW	Population for whom poverty status is determined Total: (P087001)
+
+BELOW_POV	Below poverty status (P087002)
+
+ABOVE_POV	Above poverty status (P087010)
+
+OCCUPIED	Occupied   (H002002)
+
+VACANT		Vacant (H002003)
+
+TOTALHOUSE	Universe: Housing units Total (H030001)
+
+H1DETACH	1 detached unit (H030002)
+
+H1ATTACH	1 attached unit (H030003)
+
+H2UNIT		2 units (H030004)
+
+H3_4UNIT	3 or 4 units (H030005)
+
+H5_9UNIT	5 to 9 units (H030006)
+
+H10_19UNIT	10 to 19 units (H030007)
+
+H20_49UNIT	20 to 49 units (H030008)
+
+H50MORE	50 or more units (H030009)
+
+MOBILE		Mobile home (H030010)
+
+OTHERHOUSE	Boat RV van etc. (H030011)
+
+B99_00		Built 1999 to March 2000   (H034002)
+
+B95_98		Built 1995 to 1998   (H034003)
+
+B90_94		Built 1990 to 1994   (H034004)
+
+B80_89		Built 1980 to 1989   (H034005)
+
+B70_79		Built 1970 to 1979   (H034006)
+
+B60_69		Built 1960 to 1969   (H034007)
+
+B50_59		Built 1950 to 1959   (H034008)
+
+B40_49		Built 1940 to 1949  (H034009)
+
+BEFORE39	Built 1939 or earlier    (H034010)
+
+OWNER		Owner occupied: (H038002)
+
+RENTER		Renter occupied: (H038009)
+
+ENROLLED	Total Enrolled in school (above 3 years of age) ((P036002 + P036025) - (P036047 + P036024))
+
+NOT_ENROLD	Total Not Enrolled in school (above 3 years of age) (P036047 + P036024)
+
+LABORERS	Total in labor force - Civilian (Employed and Unemployed) and Armed Forces (P043003 + P043010)
+
+M99_00		Renter &amp; Owner Moved in 1999 to March 2000 (H038003 + H038010)
+
+M95_98		Renter &amp; Owner Moved in 1995 to 1998 (H038004 + H038011)
+
+M90_94		Renter &amp; Owner Moved in 1990 to 1994 (H038005 + H038012)
+
+M80_89		Renter &amp; Owner Moved in 1980 to 1989 (H038006 + H038013)
+
+M70_79		Renter &amp; Owner Moved in 1970 to 1979 (H038007 + H038014)
+
+M69BEFORE	Renter &amp; Owner Moved in 1969 or earlier (H038008 + H038015)
+
+CNT_NAME	County Name
+
+AREA		Area of Block Group (meters)
+
+PERIMETER	Perimeter of Block Group (meters)
+
+ACRES		Acreage of Block Group
+
+LOGRECNO	Census SF3 unique identifier
+
+TOTAL_POP	TOTAL POPULATION (with built-in error for SF3) (P001001)
+
+SAMPLE_POP	UNWEIGHTED SAMPLE COUNT OF THE POPULATION (P002001)
+
+POP2000		Universe: Total population (P003001)
+
+MEDFINCOME      Median family income in 1999 (P077001)</eaover></overview><overview><eaover>Note: All Field Definitions that are followed by a (P######) or (H######) were created based on the census the corresponding census field identifier.  The definition of the identifier can be found at:
+www.census.gov/prod/cen2000/doc/sf3.pdf
+
+The following are additional demographic data from the Summary 3, available as supplemental tables. They can be joined to blkgrp2000_sum3 using the field "LOGRECNO".  Note that each table is broken down into 
+categories with a number within brackets representing the amount of  fields within the category.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_1)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TOTAL POPULATION [1]
+Universe:  Total population
+P001001 	Total
+	
+UNWEIGHTED SAMPLE COUNT OF THE POPULATION [1]
+Universe:  Total population
+P002001 	Total
+	
+100-PERCENT COUNT OF THE POPULATION [1]
+Universe:  Total population
+P003001 	Total
+	
+PERCENT OF THE POPULATION IN SAMPLE [1]   (1 expressed decimal)
+Universe:  Total population
+P004001 	Percent of the population in sample
+	
+	URBAN AND RURAL [7]
+	Universe: Total population
+P005001 	Total:
+P005002 	Urban:
+P005003 	Inside urbanized areas
+P005004 	Inside urban clusters
+P005005 	Rural:
+P005006 	Farm
+P005007 	Nonfarm
+	
+RACE [8]
+Universe:  Total population
+P006001 	Total:
+P006002 	White alone
+P006003 	Black or African American alone
+P006004 	American Indian and Alaska Native alone
+P006005 	Asian alone
+P006006 	Native Hawaiian and Other Pacific Islander alone
+P006007 	Some other race alone
+P006008 	Two or more races
+	
+HISPANIC OR LATINO BY RACE [17]
+Universe:  Total population
+P007001 	Total:
+P007002 	Not Hispanic or Latino:
+P007003 	White alone
+P007004 	Black or African American alone
+P007005 	American Indian and Alaska Native alone
+P007006 	Asian alone
+P007007 	Native Hawaiian and Other Pacific Islander alone
+P007008 	Some other race alone
+P007009 	Two or more races
+P007010 	Hispanic or Latino:
+P007011 	White alone
+P007012  Black or African American alone
+P007013 	American Indian and Alaska Native alone
+P007014 	Asian alone
+P007015 	Native Hawaiian and Other Pacific Islander alone
+P007016 	Some other race alone
+P007017 	Two or more races
+	
+SEX BY AGE [79]
+Universe:  Total population
+P008001 	Total:
+P008002 	Male:
+P008003 	Under 1 year
+P008004 	1 year
+P008005 	2 years
+P008006 	3 years
+P008007 	4 years
+P008008 	5 years
+P008009 	6 years
+P008010 	7 years
+P008011 	8 years
+P008012 	9 years
+P008013 	10 years
+P008014 	11 years
+P008015 	12 years
+P008016 	13 years
+P008017 	14 years
+P008018 	15 years
+P008019 	16 years
+P008020 	17 years
+P008021 	18 years
+P008022 	19 years
+P008023 	20 years
+P008024 	21 years
+P008025 	22 to 24 years
+P008026 	25 to 29 years
+P008027 	30 to 34 years
+P008028 	35 to 39 years
+P008029 	40 to 44 years
+P008030 	45 to 49 years
+P008031 	50 to 54 years
+P008032 	55 to 59 years
+P008033 	60 and 61 years
+P008034 	62 to 64 years
+P008035 	65 and 66 years
+P008036 	67 to 69 years
+P008037 	70 to 74 years
+P008038 	75 to 79 years
+P008039 	80 to 84 years
+P008040 	85 years and over
+P008041 	Female:
+P008042  Under 1 year
+P008043 	1 year
+P008044 	2 years
+P008045 	3 years
+P008046 	4 years
+P008047 	5 years
+P008048 	6 years
+P008049 	7 years
+P008050 	8 years
+P008051 	9 years
+P008052 	10 years
+P008053 	11 years
+P008054 	12 years
+P008055 	13 years
+P008056 	14 years
+P008057 	15 years
+P008058 	16 years
+P008059 	17 years
+P008060 	18 years
+P008061 	19 years
+P008062 	20 years
+P008063 	21 years
+P008064 	22 to 24 years
+P008065 	25 to 29 years
+P008066 	30 to 34 years
+P008067 	35 to 39 years
+P008068 	40 to 44 years
+P008069 	45 to 49 years
+P008070 	50 to 54 years
+P008071 	55 to 59 years
+P008072 	60 and 61 years
+P008073 	62 to 64 years
+P008074 	65 and 66 years
+P008075 	67 to 69 years
+P008076 	70 to 74 years
+P008077 	75 to 79 years
+P008078 	80 to 84 years
+P008079 	85 years and over
+	
+HOUSEHOLD TYPE (INCLUDING LIVING ALONE) BY RELATIONSHIP [27]
+Universe:  Total population
+P009001 	Total:
+P009002 	In households:
+P009003 	In family households:
+P009004 	Householder:
+P009005 	Male
+P009006 	Female
+P009007 	Spouse
+P009008 	Child:
+P009009 	Natural-born
+P009010 	Adopted
+P009011 	Step
+P009012 	Grandchild
+P009013 	Brother or sister
+P009014 	Parent
+P009015 	Other relatives
+P009016 	Nonrelatives
+P009017 	In nonfamily households:
+P009018 	Male householder:
+P009019 	Living alone
+P009020 	Not living alone
+P009021 	Female householder:
+P009022 	Living alone
+P009023 	Not living alone
+P009024 	Nonrelatives
+P009025 	In group quarters:
+P009026 	Institutionalized population
+P009027 	Noninstitutionalized population
+ 	
+HOUSEHOLD SIZE BY HOUSEHOLD TYPE BY PRESENCE OF OWN
+CHILDREN UNDER 18 YEARS [19]
+Universe:  Households
+P010001 	Total:
+P010002 	1-person household:
+P010003 	Male householder
+P010004  Female householder
+P010005 	2-or-more-person household:
+P010006 	Family households:
+P010007 	Married-couple family:
+P010008 	With own children under 18 years
+P010009 	No own children under 18 years
+P010010 	Other family:
+P010011 	Male householder, no wife present:
+P010012 	With own children under 18 years
+P010013 	No own children under 18 years
+P010014 	Female householder, no husband present:
+P010015 	With own children under 18 years
+P010016 	No own children under 18 years
+P010017 	Nonfamily households:
+P010018 	Male householder
+P010019 	Female householder
+	
+HOUSEHOLD TYPE (INCLUDING LIVING ALONE) BY RELATIONSHIP
+FOR THE POPULATION 65 YEARS AND OVER [21]
+Universe:  Population 65 years and over
+P011001 	Total:
+P011002 	In households:
+P011003 	In family households:
+P011004 	Householder:
+P011005 	Male
+P011006 	Female
+P011007 	Spouse
+P011008 	Parent
+P011009 	Other relatives
+P011010 	Nonrelatives
+P011011 	In nonfamily households:
+P011012 	Male householder:
+P011013 	Living alone
+P011014 	Not living alone
+P011015 	Female householder:
+P011016 	Living alone
+P011017 	Not living alone
+P011018 	Nonrelatives
+P011019 	In group quarters:
+P011020 	Institutionalized population
+P011021 	Noninstitutionalized population
+	
+HOUSEHOLDS BY AGE OF HOUSEHOLDER BY HOUSEHOLD TYPE
+(INCLUDING LIVING ALONE) BY PRESENCE OF OWN CHILDREN
+UNDER 18 YEARS [31]
+Universe:  Households
+P012001 	Total:
+P012002 	Householder 15 to 64 years:
+P012003 	Family households:
+P012004 	Married-couple family:
+P012005 	With own children under 18 years
+P012006 	No own children under 18 years
+P012007 	Other family:
+P012008 	Male householder, no wife present:
+P012009 	With own children under 18 years
+P012010 	No own children under 18 years
+P012011  Female householder, no husband present:
+P012012 	With own children under 18 years
+P012013 	No own children under 18 years
+P012014 	Nonfamily households:
+P012015 	Householder living alone
+P012016 	Householder not living alone
+P012017 	Householder 65 years and over:
+P012018 	Family households:
+P012019 	Married-couple family:
+P012020 	With own children under 18 years
+P012021 	No own children under 18 years
+P012022 	Other family:
+P012023 	Male householder, no wife present:
+P012024 	With own children under 18 years
+P012025 	No own children under 18 years
+P012026 	Female householder, no husband present:
+P012027 	With own children under 18 years
+P012028 	No own children under 18 years
+P012029 	Nonfamily households:
+P012030 	Householder living alone
+P012031 	Householder not living alone
+	
+HOUSEHOLD TYPE BY AGE OF HOUSEHOLDER [19]
+Universe:  Households
+P013001 	Total:
+P013002 	Family households:
+P013003 	Householder 15 to 24 years
+P013004 	Householder 25 to 34 years
+P013005 	Householder 35 to 44 years
+P013006 	Householder 45 to 54 years
+P013007 	Householder 55 to 64 years
+P013008 	Householder 65 to 74 years
+P013009 	Householder 75 to 84 years
+P013010 	Householder 85 years and over
+P013011 	Nonfamily households:
+P013012 	Householder 15 to 24 years
+P013013 	Householder 25 to 34 years
+P013014 	Householder 35 to 44 years
+P013015 	Householder 45 to 54 years
+P013016 	Householder 55 to 64 years
+P013017 	Householder 65 to 74 years
+P013018 	Householder 75 to 84 years
+P013019 	Householder 85 years and over
+	
+HOUSEHOLD TYPE BY HOUSEHOLD SIZE [16]
+Universe:  Households
+P014001 	Total:
+P014002 	Family households:
+P014003 	2-person household
+P014004 	3-person household
+P014005 	4-person household
+P014006 	5-person household
+P014007 	6-person household
+P014008 	7-or-more-person household
+P014009 	Nonfamily households:
+P014010 	1-person household
+P014011 	2-person household
+P014012 	3-person household
+P014013 	4-person household
+P014014 	5-person household
+P014015 	6-person household
+P014016 	7-or-more-person household
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_2)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+FAMILY TYPE BY PRESENCE OF OWN CHILDREN UNDER 18 YEARS
+BY AGE OF OWN CHILDREN [20]
+Universe:  Families
+P015001 	Total:
+P015002 	Married-couple family:
+P015003 	With own children under 18 years:
+P015004 	Under 6 years only
+P015005 	Under 6 years and 6 to 17 years
+P015006 	6 to 17 years only
+P015007 	No own children under 18 years
+P015008 	Other family:
+P015009 	Male householder, no wife present:
+P015010  With own children under 18 years:
+P015011 	Under 6 years only
+P015012 	Under 6 years and 6 to 17 years
+P015013 	6 to 17 years only
+P015014 	No own children under 18 years
+P015015 	Female householder, no husband present:
+P015016 	With own children under 18 years:
+P015017 	Under 6 years only
+P015018 	Under 6 years and 6 to 17 years
+P015019 	6 to 17 years only
+P015020 	No own children under 18 years
+	
+OWN CHILDREN UNDER 18 YEARS BY FAMILY TYPE BY AGE [26]
+Universe:  Own children under 18 years
+P016001 	Total:
+P016002 	In married-couple families:
+P016003 	Under 3 years
+P016004 	3 and 4 years
+P016005 	5 years
+P016006 	6 to 11 years
+P016007 	12 and 13 years
+P016008 	14 years
+P016009 	15 to 17 years
+P016010 	In other families:
+P016011 	Male householder, no wife present:
+P016012 	Under 3 years
+P016013 	3 and 4 years
+P016014 	5 years
+P016015 	6 to 11 years
+P016016 	12 and 13 years
+P016017 	14 years
+P016018 	15 to 17 years
+P016019 	Female householder, no husband present:
+P016020 	Under 3 years
+P016021 	3 and 4 years
+P016022 	5 years
+P016023 	6 to 11 years
+P016024 	12 and 13 years
+P016025 	14 years
+P016026 	15 to 17 years
+	
+FAMILY TYPE BY PRESENCE OF RELATED CHILDREN UNDER
+18 YEARS BY AGE OF RELATED CHILDREN [20]
+Universe:  Families
+P017001 	Total:
+P017002 	Married-couple family:
+P017003 	With related children under 18 years:
+P017004 	Under 6 years only
+P017005 	Under 6 years and 6 to 17 years
+P017006 	6 to 17 years only
+P017007 	No related children under 18 years
+P017008 	Other family:
+P017009 	Male householder, no wife present:
+P017010 	With related children under 18 years:
+P017011 	Under 6 years only
+P017012 	Under 6 years and 6 to 17 years
+P017013 	6 to 17 years only
+P017014 	No related children under 18 years
+P017015 	Female householder, no husband present:
+P017016 	With related children under 18 years:
+P017017 	Under 6 years only
+P017018 	Under 6 years and 6 to 17 years
+P017019 	6 to 17 years only
+P017020 	No related children under 18 years
+	
+SEX BY MARITAL STATUS FOR THE POPULATION 15 YEARS
+AND OVER [19]
+Universe:  Population 15 years and over
+P018001 	Total:
+P018002 	Male:
+P018003 	Never married
+P018004 	Now married:
+P018005 	Married, spouse present
+P018006 	Married, spouse absent:
+P018007 	Separated
+P018008 	Other
+P018009 	Widowed
+P018010 	Divorced
+P018011 	Female:
+P018012 	Never married
+P018013 	Now married:
+P018014 	Married, spouse present
+P018015 	Married, spouse absent:
+P018016 	Separated
+P018017 	Other
+P018018  Widowed
+P018019 	Divorced
+	
+AGE BY LANGUAGE SPOKEN AT HOME BY ABILITY TO SPEAK
+ENGLISH FOR THE POPULATION 5 YEARS AND OVER [67]
+Universe:  Population 5 years and over
+P019001 	Total:
+P019002 	5 to 17 years:
+P019003 	Speak only English
+P019004 	Speak Spanish:
+P019005 	Speak English "very well"
+P019006 	Speak English "well"
+P019007 	Speak English "not well"
+P019008 	Speak English "not at all"
+P019009 	Speak other Indo-European languages:
+P019010 	Speak English "very well"
+P019011 	Speak English "well"
+P019012 	Speak English "not well"
+P019013 	Speak English "not at all"
+P019014 	Speak Asian and Pacific Island languages:
+P019015 	Speak English "very well"
+P019016 	Speak English "well"
+P019017 	Speak English "not well"
+P019018 	Speak English "not at all"
+P019019 	Speak other languages:
+P019020 	Speak English "very well"
+P019021 	Speak English "well"
+P019022 	Speak English "not well"
+P019023 	Speak English "not at all"
+P019024 	18 to 64 years:
+P019025 	Speak only English
+P019026 	Speak Spanish:
+P019027 	Speak English "very well"
+P019028 	Speak English "well"
+P019029 	Speak English "not well"
+P019030 	Speak English "not at all"
+P019031 	Speak other Indo-European languages:
+P019032 	Speak English "very well"
+P019033 	Speak English "well"
+P019034 	Speak English "not well"
+P019035 	Speak English "not at all"
+P019036 	Speak Asian and Pacific Island languages:
+P019037 	Speak English "very well"
+P019038 	Speak English "well"
+P019039 	Speak English "not well"
+P019040 	Speak English "not at all"
+P019041 	Speak other languages:
+P019042 	Speak English "very well"
+P019043 	Speak English "well"
+P019044 	Speak English "not well"
+P019045 	Speak English "not at all"
+P019046  65 years and over:
+P019047 	Speak only English
+P019048 	Speak Spanish:
+P019049 	Speak English "very well"
+P019050 	Speak English "well"
+P019051 	Speak English "not well"
+P019052 	Speak English "not at all"
+P019053 	Speak other Indo-European languages:
+P019054 	Speak English "very well"
+P019055 	Speak English "well"
+P019056 	Speak English "not well"
+P019057 	Speak English "not at all"
+P019058 	Speak Asian and Pacific Island languages:
+P019059 	Speak English "very well"
+P019060 	Speak English "well"
+P019061 	Speak English "not well"
+P019062 	Speak English "not at all"
+P019063 	Speak other languages:
+P019064 	Speak English "very well"
+P019065 	Speak English "well"
+P019066 	Speak English "not well"
+P019067 	Speak English "not at all"
+ 	
+HOUSEHOLD LANGUAGE BY LINGUISTIC ISOLATION [14]
+Universe:  Households
+P020001 	Total:
+P020002 	English
+P020003 	Spanish:
+P020004 	Linguistically isolated
+P020005 	Not linguistically isolated
+P020006 	Other Indo-European languages:
+P020007 	Linguistically isolated
+P020008 	Not linguistically isolated
+P020009 	Asian and Pacific Island languages:
+P020010 	Linguistically isolated
+P020011 	Not linguistically isolated
+P020012 	Other languages:
+P020013 	Linguistically isolated
+P020014 	Not linguistically isolated
+	
+PLACE OF BIRTH BY CITIZENSHIP STATUS [15]
+Universe:  Total population
+P021001 	Total:
+P021002 	Native:
+P021003 	Born in state of residence
+P021004 	Born in other state in the United States:
+P021005 	Northeast
+P021006 	Midwest
+P021007 	South
+P021008 	West
+P021009 	Born outside the United States:
+P021010 	Puerto Rico
+P021011 	U.S. Island Areas
+P021012 	Born abroad of American parent(s)
+P021013 	Foreign born:
+P021014 	Naturalized citizen
+P021015 	Not a citizen
+	
+YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION [9]
+Universe: Foreign-born population
+P022001 	Total:
+P022002 	1995 to March 2000
+P022003 	1990 to 1994
+P022004 	1985 to 1989
+P022005 	1980 to 1984
+P022006 	1975 to 1979
+P022007 	1970 to 1974
+P022008 	1965 to 1969
+P022009 	Before 1965
+	
+YEAR OF ENTRY BY CITIZENSHIP STATUS FOR THE
+FOREIGN-BORN POPULATION [10]
+Universe: Foreign-born population
+P023001 	Total:
+P023002 	Year of entry 1990 to March 2000:
+P023003 	Naturalized citizen
+P023004 	Not a citizen
+P023005 	Year of entry 1980 to 1989:
+P023006 	Naturalized citizen
+P023007 	Not a citizen
+P023008 	Year of entry before 1980:
+P023009 	Naturalized citizen
+P023010 	Not a citizen
+	
+RESIDENCE IN 1995 FOR THE POPULATION 5 YEARS AND
+OVER--STATE AND COUNTY LEVEL [18]
+Universe:  Population 5 years and over
+P024001 	Total:
+P024002 	Same house in 1995
+P024003 	Different house in 1995:
+P024004 	In United States in 1995:
+P024005 	Same county
+P024006 	Different county:
+P024007 	Same state
+P024008 	Different state:
+P024009 	Northeast
+P024010 	Midwest
+P024011 	South
+P024012 	West
+P024013 	In Puerto Rico in 1995:
+P024014 	Same municipio
+P024015 	Different municipio
+P024016 	Elsewhere in 1995:
+P024017 	U.S. Island Areas
+P024018 	Foreign country or at sea
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_3)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+RESIDENCE IN 1995 FOR THE POPULATION 5 YEARS AND
+OVER--MSA/PMSA LEVEL [35]
+Universe:  Population 5 years and over
+P025001 	Total:
+P025002 	Living in an MSA/PMSA in 2000:
+P025003 	Same house in 1995
+P025004 	Different house in 1995:
+P025005 	In United States in 1995:
+P025006 	Same MSA/PMSA in 1995:
+P025007 	Central city
+P025008 	Remainder of this MSA/PMSA
+P025009 	Different MSA/PMSA in 1995:
+P025010 	Central city
+P025011 	Remainder of different MSA/PMSA
+P025012 	Not in an MSA/PMSA in 1995
+P025013 	In Puerto Rico in 1995:
+P025014 	Same MSA/PMSA in 1995:
+P025015 	Central city
+P025016 	Remainder of this MSA/PMSA
+P025017 	Different MSA/PMSA in 1995:
+P025018 	Central city
+P025019 	Remainder of different MSA/PMSA
+P025020 	Not in an MSA/PMSA in 1995
+P025021 	Elsewhere in 1995
+P025022 	Not living in an MSA/PMSA in 2000:
+P025023 	Same house in 1995
+P025024 	Different house in 1995:
+P025025 	In United States in 1995:
+P025026 	In an MSA/PMSA in 1995:
+P025027 	Central city
+P025028 	Remainder of MSA/PMSA
+P025029 	Not in an MSA/PMSA in 1995
+P025030 	In Puerto Rico in 1995:
+P025031 	In an MSA/PMSA in 1995:
+P025032 	Central city
+P025033 	Remainder of MSA/PMSA
+P025034 	Not in an MSA/PMSA in 1995
+P025035 	Elsewhere in 1995
+	
+PLACE OF WORK FOR WORKERS 16 YEARS AND
+OVER--STATE AND COUNTY LEVEL [5]
+Universe:  Workers 16 years and over
+P026001 	Total:
+P026002 	Worked in state of residence:
+P026003 	Worked in county of residence
+P026004 	Worked outside county of residence
+P026005 	Worked outside state of residence
+	
+PLACE OF WORK FOR WORKERS 16 YEARS AND
+OVER--PLACE LEVEL [5]
+Universe:  Workers 16 years and over
+P027001 	Total:
+P027002 	Living in a place:
+P027003 	Worked in place of residence
+P027004 	Worked outside place of residence
+P027005 	Not living in a place
+ 	
+PLACE OF WORK FOR WORKERS 16 YEARS AND
+OVER--MSA/PMSA LEVEL [25]
+Universe:  Workers 16 years and over
+P028001 	Total:
+P028002 	Living in an MSA/PMSA:
+P028003 	Living in a central city:
+P028004 	Worked in MSA/PMSA of residence:
+P028005 	Central city
+P028006 	Remainder of this MSA/PMSA
+P028007 	Worked outside MSA/PMSA of residence:
+P028008 	Worked in a different MSA/PMSA:
+P028009 	Central city
+P028010 	Remainder of different MSA/PMSA
+P028011 	Worked outside any MSA/PMSA
+P028012 	Living in remainder of an MSA/PMSA:
+P028013 	Worked in MSA/PMSA of residence:
+P028014 	Central city
+P028015 	Remainder of this MSA/PMSA
+P028016 	Worked outside MSA/PMSA of residence:
+P028017 	Worked in a different MSA/PMSA:
+P028018 	Central city
+P028019 	Remainder of different MSA/PMSA
+P028020 	Worked outside any MSA/PMSA
+P028021 	Not living in an MSA/PMSA:
+P028022 	Worked in an MSA/PMSA:
+P028023 	Central city
+P028024 	Remainder of MSA/PMSA
+P028025 	Worked outside any MSA/PMSA
+	
+PLACE OF WORK FOR WORKERS 16 YEARS AND OVER--MINOR
+CIVIL DIVISION LEVEL FOR 12 SELECTED STATES (CT, ME,
+MA, MI, MN, NH, NJ, NY, PA, RI, VT, WI) [5]
+Universe:  Workers 16 years and over
+P029001 	Total:
+P029002 	Living in the 12 selected states:
+P029003 	Worked in minor civil division of residence
+P029004 	Worked outside minor civil division of residence
+P029005 	Not living in the 12 selected states
+	
+MEANS OF TRANSPORTATION TO WORK FOR WORKERS 16 YEARS
+AND OVER [16]
+Universe:  Workers 16 years and over
+P030001 	Total:
+P030002 	Car, truck, or van:
+P030003 	Drove alone
+P030004 	Carpooled
+P030005 	Public transportation:
+P030006 	Bus or trolley bus
+P030007 	Streetcar or trolley car (público in Puerto Rico)
+P030008 	Subway or elevated
+P030009 	Railroad
+P030010 	Ferryboat
+P030011 	Taxicab
+P030012 	Motorcycle
+P030013 	Bicycle
+P030014 	Walked
+P030015 	Other means
+P030016 	Worked at home
+	
+TRAVEL TIME TO WORK FOR WORKERS 16 YEARS AND OVER [15]
+Universe:  Workers 16 years and over
+P031001 	Total:
+P031002 	Did not work at home:
+P031003 	Less than 5 minutes
+P031004 	5 to 9 minutes
+P031005 	10 to 14 minutes
+P031006 	15 to 19 minutes
+P031007 	20 to 24 minutes
+P031008 	25 to 29 minutes
+P031009 	30 to 34 minutes
+P031010 	35 to 39 minutes
+P031011 	40 to 44 minutes
+P031012 	45 to 59 minutes
+P031013 	60 to 89 minutes
+P031014 	90 or more minutes
+P031015 	Worked at home
+	
+TRAVEL TIME TO WORK BY MEANS OF TRANSPORTATION TO WORK
+FOR WORKERS 16 YEARS AND OVER WHO DID NOT WORK AT HOME [13]
+Universe: Workers 16 years and over who did not work at home
+P032001 	Total:
+P032002 	Less than 30 minutes:
+P032003 	Public transportation
+P032004 	Other means
+P032005 	30 to 44 minutes:
+P032006 	Public transportation
+P032007 	Other means
+P032008 	45 to 59 minutes:
+P032009 	Public transportation
+P032010 	Other means
+P032011 	60 or more minutes:
+P032012  Public transportation
+P032013	 Other means
+	
+AGGREGATE TRAVEL TIME TO WORK (IN MINUTES) BY TRAVEL
+TIME TO WORK BY MEANS OF TRANSPORTATION TO WORK FOR
+WORKERS 16 YEARS AND OVER WHO DID NOT WORK AT HOME [13]
+Universe:  Workers 16 years and over who did not work at home
+P033001 	Aggregate travel time to work (in minutes):
+P033002 	Less than 30 minutes:
+P033003 	Public transportation
+P033004 	Other means
+P033005 	30 to 44 minutes:
+P033006 	Public transportation
+P033007 	Other means
+P033008 	45 to 59 minutes:
+P033009 	Public transportation
+P033010 	Other means
+P033011 	60 or more minutes:
+P033012 	Public transportation
+P033013 	Other means
+	 
+TIME LEAVING HOME TO GO TO WORK FOR WORKERS
+16 YEARS AND OVER [17]
+Universe:  Workers 16 years and over
+P034001 	Total:
+P034002 	Did not work at home:
+P034003 	12:00 a.m. to 4:59 a.m.
+P034004 	5:00 a.m. to 5:29 a.m.
+P034005 	5:30 a.m. to 5:59 a.m.
+P034006 	6:00 a.m. to 6:29 a.m.
+P034007 	6:30 a.m. to 6:59 a.m.
+P034008 	7:00 a.m. to 7:29 a.m.
+P034009 	7:30 a.m. to 7:59 a.m.
+P034010  8:00 a.m. to 8:29 a.m.
+P034011 	8:30 a.m. to 8:59 a.m.
+P034012 	9:00 a.m. to 9:59 a.m.
+P034013 	10:00 a.m. to 10:59 a.m.
+P034014 	11:00 a.m. to 11:59 a.m.
+P034015 	12:00 p.m. to 3:59 p.m.
+P034016 	4:00 p.m. to 11:59 p.m.
+P034017 	Worked at home
+	
+PRIVATE VEHICLE OCCUPANCY FOR WORKERS 16 YEARS
+AND OVER [10]
+Universe:   Workers 16 years and over
+P035001 	Total:
+P035002 	Car, truck, or van:
+P035003 	Drove alone
+P035004 	Carpooled:
+P035005 	In 2-person carpool
+P035006 	In 3-person carpool
+P035007 	In 4-person carpool
+P035008 	In 5- or 6-person carpool
+P035009 	In 7-or-more-person carpool
+P035010 	Other means (including those who worked at home)
+	
+SEX BY SCHOOL ENROLLMENT BY LEVEL OF SCHOOL BY
+TYPE OF SCHOOL FOR THE POPULATION 3 YEARS AND OVER [47]
+Universe:  Population 3 years and over
+P036001 	Total:
+P036002 	Male:
+P036003 	Enrolled in nursery school, preschool:
+P036004 	Public school
+P036005 	Private school
+P036006 	Enrolled in kindergarten:
+P036007 	Public school
+P036008 	Private school
+P036009 	Enrolled in grade 1 to grade 4:
+P036010 	Public school
+P036011 	Private school
+P036012 	Enrolled in grade 5 to grade 8:
+P036013 	Public school
+P036014 	Private school
+P036015 	Enrolled in grade 9 to grade 12:
+P036016 	Public school
+P036017 	Private school
+P036018 	Enrolled in college, undergraduate years:
+P036019 	Public school
+P036020 	Private school
+P036021 	Enrolled in graduate or professional school:
+P036022 	Public school
+P036023 	Private school
+P036024 	Not enrolled in school
+P036025 	Female:
+P036026 	Enrolled in nursery school, preschool:
+P036027 	Public school
+P036028 	Private school
+P036029 	Enrolled in kindergarten:
+P036030 	Public school
+P036031 	Private school
+P036032 	Enrolled in grade 1 to grade 4:
+P036033 	Public school
+P036034 	Private school
+P036035 	Enrolled in grade 5 to grade 8:
+P036036 	Public school
+P036037 	Private school
+P036038 	Enrolled in grade 9 to grade 12:
+P036039 	Public school
+P036040 	Private school
+P036041 	Enrolled in college, undergraduate years:
+P036042 	Public school
+P036043 	Private school
+P036044 	Enrolled in graduate or professional school:
+P036045 	Public school
+P036046 	Private school
+P036047 	Not enrolled in school
+	
+SEX BY EDUCATIONAL ATTAINMENT FOR THE POPULATION
+25 YEARS AND OVER [35]
+Universe: Population 25 years and over
+P037001 	Total:
+P037002 	Male:
+P037003 	No schooling completed
+P037004 	Nursery to 4th grade
+P037005 	5th and 6th grade
+P037006 	7th and 8th grade
+P037007 	9th grade
+P037008 	10th grade
+P037009 	11th grade
+P037010 	12th grade, no diploma
+P037011 	High school graduate (includes equivalency)
+P037012 	Some college, less than 1 year
+P037013 	Some college, 1 or more years, no degree
+P037014 	Associate degree
+P037015 	Bachelor's degree
+P037016 	Master's degree
+P037017 	Professional school degree
+P037018 	Doctorate degree
+P037019 	Female:
+P037020 	No schooling completed
+P037021 	Nursery to 4th grade
+P037022 	5th and 6th grade
+P037023 	7th and 8th grade
+P037024 	9th grade
+P037025 	10th grade
+P037026 	11th grade
+P037027 	12th grade, no diploma
+P037028 	High school graduate (includes equivalency)
+P037029 	Some college, less than 1 year
+P037030 	Some college, 1 or more years, no degree
+P037031 	Associate degree
+P037032 	Bachelor's degree
+P037033 	Master's degree
+P037034 	Professional school degree
+P037035 	Doctorate degree
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_4)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ARMED FORCES STATUS BY SCHOOL ENROLLMENT BY EDUCATIONAL
+ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION
+16 TO 19 YEARS [22]
+Universe:  Population 16 to 19 years
+P038001 	Total:
+P038002 	In Armed Forces:
+P038003 	Enrolled in school:
+P038004 	High school graduate
+P038005 	Not high school graduate
+P038006 	Not enrolled in school:
+P038007 	High school graduate
+P038008 	Not high school graduate
+P038009 	Civilian:
+P038010 	Enrolled in school:
+P038011 	Employed
+P038012 	Unemployed
+P038013 	Not in labor force
+P038014 	Not enrolled in school:
+P038015 	High school graduate:
+P038016 	Employed
+P038017 	Unemployed
+P038018 	Not in labor force
+P038019 	Not high school graduate:
+P038020 	Employed
+P038021 	Unemployed
+P038022 	Not in labor force
+	
+SEX BY AGE BY ARMED FORCES STATUS BY VETERAN STATUS
+FOR THE POPULATION 18 YEARS AND OVER [23]
+Universe:  Population 18 years and over
+P039001 	Total:
+P039002 	Male:
+P039003 	18 to 64 years:
+P039004 	In Armed Forces
+P039005 	Civilian:
+P039006 	Veteran
+P039007 	Nonveteran
+P039008 	65 years and over:
+P039009 	In Armed Forces
+P039010 	Civilian:
+P039011 	Veteran
+P039012 	Nonveteran
+P039013 	Female:
+P039014 	18 to 64 years:
+P039015 	In Armed Forces
+P039016 	Civilian:
+P039017 	Veteran
+P039018 	Nonveteran
+P039019 	65 years and over:
+P039020 	In Armed Forces
+P039021 	Civilian:
+P039022 	Veteran
+P039023 	Nonveteran
+	
+PERIOD OF MILITARY SERVICE FOR CIVILIAN
+VETERANS 18 YEARS AND OVER [21]
+Universe:  Civilian veterans 18 years and over
+P040001 	Total:
+P040002 	August 1990 or later (including Persian Gulf War):
+P040003 	Served in Vietnam era
+P040004 	No Vietnam era service:
+P040005 	Served September 1980 or later only:
+P040006 	Served under 2 years
+P040007 	Served 2 or more years
+P040008 	Served prior to September 1980
+P040009 	May 1975 to July 1990 only:
+P040010 	September 1980 to July 1990 only:
+P040011 	Served under 2 years
+P040012 	Served 2 or more years
+P040013 	Other May 1975 to July 1990 service
+ 	   Vietnam era, no Korean War, no World War II,
+P040014	no August 1990 or later
+                  Vietnam era and Korean War, no World War II,
+P040015	 no August 1990 or later
+	        Vietnam era, Korean War, and World War II,
+P040016	 no August 1990 or later
+P040017  February 1955 to July 1964 only
+P040018 	Korean War, no Vietnam era, no World War II
+P040019 	Korean War and World War II, no Vietnam era
+P040020 	World War II, no Korean War, no Vietnam era
+P040021 	Other service only
+	
+AGE BY TYPES OF DISABILITY FOR THE CIVILIAN
+NONINSTITUTIONALIZED POPULATION 5 YEARS AND
+OVER WITH DISABILITIES [19]
+Universe:  Total disabilities tallied for the
+civilian noninstitutionalized population 5 years
+and over with disabilities
+P041001 	Total disabilities tallied:
+P041002 	Total disabilities tallied for people 5 to 15 years:
+P041003 	Sensory disability
+P041004 	Physical disability
+P041005 	Mental disability
+P041006 	Self-care disability
+P041007 	Total disabilities tallied for people 16 to 64 years:
+P041008 	Sensory disability
+P041009 	Physical disability
+P041010 	Mental disability
+P041011 	Self-care disability
+P041012 	Go-outside-home disability
+P041013 	Employment disability
+P041014 	Total disabilities tallied for people 65 years and over:
+P041015 	Sensory disability
+P041016 	Physical disability
+P041017 	Mental disability
+P041018 	Self-care disability
+P041019 	Go-outside-home disability
+	
+SEX BY AGE BY DISABILITY STATUS BY EMPLOYMENT STATUS
+FOR THE CIVILIAN NONINSTITUTIONALIZED POPULATION
+5 YEARS AND OVER [49]
+Universe:  Civilian noninstitutionalized population
+5 years and over
+P042001 	Total:
+P042002 	Male:
+P042003 	5 to 15 years:
+P042004 	With a disability
+P042005 	No disability
+P042006 	16 to 20 years:
+P042007 	With a disability:
+P042008 	Employed
+P042009 	Not employed
+P042010 	No disability:
+P042011 	Employed
+P042012 	Not employed
+P042013 	21 to 64 years:
+P042014 	With a disability:
+P042015 	Employed
+P042016 	Not employed
+P042017 	No disability:
+P042018 	Employed
+P042019 	Not employed
+P042020 	65 to 74 years:
+P042021 	With a disability
+P042022 	No disability
+P042023 	75 years and over:
+P042024 	With a disability
+P042025 	No disability
+P042026 	Female:
+P042027 	5 to 15 years:
+P042028 	With a disability
+P042029 	No disability
+P042030 	16 to 20 years:
+P042031 	With a disability:
+P042032 	Employed
+P042033 	Not employed
+P042034 	No disability:
+P042035 	Employed
+P042036 	Not employed
+P042037 	21 to 64 years:
+P042038 	With a disability:
+P042039 	Employed
+P042040 	Not employed
+P042041 	No disability:
+P042042 	Employed
+P042043 	Not employed
+P042044 	65 to 74 years:
+P042045 	With a disability
+P042046 	No disability
+P042047 	75 years and over:
+P042048 	With a disability
+P042049 	No disability
+ 	
+SEX BY EMPLOYMENT STATUS FOR THE POPULATION
+16 YEARS AND OVER [15]
+Universe:  Population 16 years and over
+P043001 	Total:
+P043002 	Male:
+P043003 	In labor force:
+P043004 	In Armed Forces
+P043005 	Civilian:
+P043006 	Employed
+P043007 	Unemployed
+P043008 	Not in labor force
+P043009 	Female:
+P043010 	In labor force:
+P043011 	In Armed Forces
+P043012 	Civilian:
+P043013 	Employed
+P043014 	Unemployed
+P043015 	Not in labor force
+	
+FAMILY TYPE BY EMPLOYMENT STATUS [29]
+Universe:  Families
+P044001 	Total:
+P044002 	Married-couple family:
+P044003 	Husband in labor force:
+P044004 	Employed or in Armed Forces:
+P044005 	Wife in labor force:
+P044006 	Employed or in Armed Forces
+P044007 	Unemployed
+P044008 	Wife not in labor force
+P044009 	Unemployed:
+P044010 	Wife in labor force:
+P044011 	Employed or in Armed Forces
+P044012 	Unemployed
+P044013 	Wife not in labor force
+P044014 	Husband not in labor force:
+P044015 	Wife in labor force:
+P044016 	Employed or in Armed Forces
+P044017 	Unemployed
+P044018 	Wife not in labor force
+P044019 	Other family:
+P044020 	Male householder, no wife present:
+P044021 	In labor force:
+P044022 	Employed or in Armed Forces
+P044023 	Unemployed
+P044024 	Not in labor force
+P044025 	Female householder, no husband present:
+P044026 	In labor force:
+P044027 	Employed or in Armed Forces
+P044028 	Unemployed
+P044029 	Not in labor force
+	
+PRESENCE OF OWN CHILDREN UNDER 18 YEARS BY
+AGE OF OWN CHILDREN BY EMPLOYMENT STATUS FOR
+FEMALES 16 YEARS AND OVER [22]
+Universe:  Females 16 years and over
+P045001 	Total:
+P045002 	With own children under 18 years:
+P045003 	Under 6 years only:
+P045004 	In labor force:
+P045005 	Employed or in Armed Forces
+P045006 	Unemployed
+P045007 	Not in labor force
+P045008 	Under 6 years and 6 to 17 years:
+P045009 	In labor force:
+P045010 	Employed or in Armed Forces
+P045011 	Unemployed
+P045012 	Not in labor force
+P045013 	6 to 17 years only:
+P045014 	In labor force:
+P045015 	Employed or in Armed Forces
+P045016 	Unemployed
+P045017 	Not in labor force
+P045018 	No own children under 18 years:
+P045019 	In labor force:
+P045020 	Employed or in Armed Forces
+P045021 	Unemployed
+P045022 	Not in labor force
+	
+AGE OF OWN CHILDREN UNDER 18 YEARS IN FAMILIES
+AND SUBFAMILIES BY LIVING ARRANGEMENTS BY EMPLOYMENT
+STATUS OF PARENTS [27]
+Universe:  Own children under 18 years in families
+and subfamilies
+P046001 	Total:
+P046002 	Under 6 years:
+P046003 	Living with two parents:
+P046004 	Both parents in labor force
+P046005 	Father only in labor force
+P046006 	Mother only in labor force
+P046007 	Neither parent in labor force
+P046008 	Living with one parent:
+P046009 	Living with father:
+P046010 	In labor force
+P046011 	Not in labor force
+P046012 	Living with mother:
+P046013 	In labor force
+P046014 	Not in labor force
+P046015 	6 to 17 years:
+P046016 	Living with two parents:
+P046017 	Both parents in labor force
+P046018 	Father only in labor force
+P046019 	Mother only in labor force
+P046020 	Neither parent in labor force
+P046021 	Living with one parent:
+P046022 	Living with father:
+P046023 	In labor force
+P046024 	Not in labor force
+P046025 	Living with mother:
+P046026 	In labor force
+P046027 	Not in labor force
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_5)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+SEX BY WORK STATUS IN 1999 BY USUAL HOURS WORKED
+PER WEEK IN 1999 BY WEEKS WORKED IN 1999 FOR
+THE POPULATION 16 YEARS AND OVER [49]
+Universe:  Population 16 years and over
+P047001 	Total:
+P047002 	Male:
+P047003 	Worked in 1999:
+P047004 	Usually worked 35 or more hours per week:
+P047005 	50 to 52 weeks
+P047006 	48 and 49 weeks
+P047007 	40 to 47 weeks
+P047008 	27 to 39 weeks
+P047009 	14 to 26 weeks
+P047010 	1 to 13 weeks
+P047011 	Usually worked 15 to 34 hours per week:
+P047012 	50 to 52 weeks
+P047013 	48 and 49 weeks
+P047014 	40 to 47 weeks
+P047015 	27 to 39 weeks
+P047016 	14 to 26 weeks
+P047017 	1 to 13 weeks
+P047018 	Usually worked 1 to 14 hours per week:
+P047019 	50 to 52 weeks
+P047020 	48 and 49 weeks
+P047021 	40 to 47 weeks
+P047022 	27 to 39 weeks
+P047023 	14 to 26 weeks
+P047024 	1 to 13 weeks
+P047025 	Did not work in 1999
+P047026 	Female:
+P047027 	Worked in 1999:
+P047028 	Usually worked 35 or more hours per week:
+P047029 	50 to 52 weeks
+P047030 	48 and 49 weeks
+P047031 	40 to 47 weeks
+P047032 	27 to 39 weeks
+P047033 	14 to 26 weeks
+P047034 	1 to 13 weeks
+P047035 	Usually worked 15 to 34 hours per week:
+P047036 	50 to 52 weeks
+P047037 	48 and 49 weeks
+P047038 	40 to 47 weeks
+P047039 	27 to 39 weeks
+P047040 	14 to 26 weeks
+P047041 	1 to 13 weeks
+P047042 	Usually worked 1 to 14 hours per week:
+P047043 	50 to 52 weeks
+P047044 	48 and 49 weeks
+P047045 	40 to 47 weeks
+P047046 	27 to 39 weeks
+P047047 	14 to 26 weeks
+P047048 	1 to 13 weeks
+P047049 	Did not work in 1999
+ 	
+FAMILY TYPE BY NUMBER OF WORKERS IN FAMILY IN 1999 [21]
+Universe:  Families
+P048001 	Total:
+P048002 	Married-couple family:
+P048003 	No workers
+P048004 	1 worker
+P048005 	2 workers:
+P048006 	Husband and wife worked
+P048007 	Other
+P048008 	3 or more workers:
+P048009 	Husband and wife worked
+P048010 	Other
+P048011 	Other family:
+P048012 	Male householder, no wife present:
+P048013 	No workers
+P048014 	1 worker
+P048015 	2 workers
+P048016 	3 or more workers
+P048017 	Female householder, no husband present:
+P048018 	No workers
+P048019 	1 worker
+P048020 	2 workers
+P048021 	3 or more workers
+	
+SEX BY INDUSTRY FOR THE EMPLOYED CIVILIAN
+POPULATION 16 YEARS AND OVER [55]
+Universe:  Employed civilian population 16 years and over
+P049001 	Total:
+P049002 	Male:
+P049003	Agriculture, forestry, fishing and hunting,
+ 	        and mining:
+P049004 	Agriculture, forestry, fishing and hunting
+P049005 	Mining
+P049006 	Construction
+P049007 	Manufacturing
+P049008 	Wholesale trade
+P049009 	Retail trade
+P049010 	Transportation and warehousing, and utilities:
+P049011 	Transportation and warehousing
+P049012 	Utilities
+P049013 	Information
+P049014	Finance, insurance, real estate and rental
+	        and leasing:
+P049015 	Finance and insurance
+P049016 	Real estate and rental and leasing
+P049017	Professional, scientific, management,
+	        administrative, and waste management services:
+P049018 	Professional, scientific, and technical services
+P049019 	Management of companies and enterprises
+P049020	 Administrative and support and waste
+	        management services
+P049021 	Educational, health and social services:
+P049022 	Educational services
+P049023 	Health care and social assistance
+P049024  Arts, entertainment, recreation, accommodation
+	        and food services:
+P049025 	Arts, entertainment, and recreation
+P049026 	Accommodation and food services
+P049027 	Other services (except public administration)
+P049028 	Public administration
+P049029 	Female:
+P049030  Agriculture, forestry, fishing and hunting,
+	        and mining:
+P049031 	Agriculture, forestry, fishing and hunting
+P049032 	Mining
+P049033 	Construction
+P049034 	Manufacturing
+P049035 	Wholesale trade
+P049036  Retail trade
+P049037 	Transportation and warehousing, and utilities:
+P049038 	Transportation and warehousing
+P049039 	Utilities
+P049040 	Information
+P049041 	Finance, insurance, real estate and rental
+	        and leasing:
+P049042 	Finance and insurance
+P049043 	Real estate and rental and leasing
+P049044	 Professional, scientific, management,
+	        administrative, and waste management services:
+P049045 	Professional, scientific, and technical services
+P049046 	Management of companies and enterprises
+P049047 	Administrative and support and waste management
+	        services
+P049048 	Educational, health and social services:
+P049049 	Educational services
+P049050 	Health care and social assistance
+P049051 	Arts, entertainment, recreation, accommodation
+	        and food services:
+P049052 	Arts, entertainment, and recreation
+P049053 	Accommodation and food services
+P049054 	Other services (except public administration)
+P049055 	Public administration
+	
+SEX BY OCCUPATION FOR THE EMPLOYED CIVILIAN POPULATION
+16 YEARS AND OVER [95]
+Universe:  Employed civilian population 16 years and over
+P050001 	Total:
+P050002 	Male:
+P050003 	Management, professional, and related occupations:
+P050004  Management, business, and financial operations
+	        occupations:
+P050005 	Management occupations, except farmers
+	        and farm managers
+P050006 	Farmers and farm managers
+P050007 	Business and financial operations occupations:
+P050008 	Business operations specialists
+P050009 	Financial specialists
+P050010 	Professional and related occupations:
+P050011 	Computer and mathematical occupations
+P050012 	Architecture and engineering occupations:
+P050013 	Architects, surveyors, cartographers,
+ 	        and engineers
+P050014 	Drafters, engineering, and mapping technicians
+P050015 	Life, physical, and social science occupations
+P050016 	Community and social services occupations
+P050017 	Legal occupations
+P050018 	Education, training, and library occupations
+P050019 	Arts, design, entertainment, sports, and
+	        media occupations
+P050020 	Healthcare practitioners and technical
+	        occupations:
+P050021 	Health diagnosing and treating practitioners
+	        and technical occupations
+P050022 	Health technologists and technicians
+P050023 	Service occupations:
+P050024 	Healthcare support occupations
+P050025 	Protective service occupations:
+P050026 	Fire fighting, prevention, and law enforcement
+	        workers, including supervisors
+P050027 	Other protective service workers, including
+	        supervisors
+P050028 	Food preparation and serving related occupations
+P050029 	Building and grounds cleaning and maintenance
+	        occupations
+P050030 	Personal care and service occupations
+P050031 	Sales and office occupations:
+P050032 	Sales and related occupations
+P050033 	Office and administrative support occupations
+P050034 	Farming, fishing, and forestry occupations
+P050035 	Construction, extraction, and maintenance
+	        occupations:
+P050036 	Construction and extraction occupations:
+P050037 	Supervisors, construction and extraction
+	        workers
+P050038 	Construction trades workers
+P050039 	Extraction workers
+P050040 	Installation, maintenance, and repair occupations
+P050041  Production, transportation, and material moving
+	        occupations:
+P050042 	Production occupations
+P050043 	Transportation and material moving occupations:
+P050044 	Supervisors, transportation and material
+	        moving workers
+P050045 	Aircraft and traffic control occupations
+P050046 	Motor vehicle operators
+P050047 	Rail, water and other transportation occupations
+P050048 	Material moving workers
+P050049 	Female:
+P050050 	Management, professional, and related occupations:
+P050051 	Management, business, and financial operations
+         	occupations:
+P050052 	Management occupations, except farmers
+	        and farm managers
+P050053 	Farmers and farm managers
+P050054 	Business and financial operations occupations:
+P050055 	Business operations specialists
+P050056 	Financial specialists
+P050057 	Professional and related occupations:
+P050058 	Computer and mathematical occupations
+P050059 	Architecture and engineering occupations:
+P050060 	Architects, surveyors, cartographers,
+	        and engineers
+P050061 	Drafters, engineering, and mapping technicians
+P050062 	Life, physical, and social science occupations
+P050063 	Community and social services occupations
+P050064 	Legal occupations
+P050065 	Education, training, and library occupations
+P050066 	Arts, design, entertainment, sports,
+	        and media occupations
+P050067 	Healthcare practitioners and technical
+	        occupations:
+P050068 	Health diagnosing and treating practitioners
+	        and technical occupations
+P050069 	Health technologists and technicians
+P050070 	Service occupations:
+P050071 	Healthcare support occupations
+P050072 	Protective service occupations:
+P050073 	Fire fighting, prevention, and law enforcement
+	        workers, including supervisors
+P050074 	Other protective service workers,
+	        including supervisors
+P050075 	Food preparation and serving related occupations
+P050076  Building and grounds cleaning and maintenance
+	        occupations
+P050077 	Personal care and service occupations
+P050078 	Sales and office occupations:
+P050079 	Sales and related occupations
+P050080 	Office and administrative support occupations
+P050081 	Farming, fishing, and forestry occupations
+P050082 	Construction, extraction, and maintenance occupations:
+P050083 	Construction and extraction occupations:
+P050084 	Supervisors, construction and extraction workers
+P050085 	Construction trades workers
+P050086 	Extraction workers
+P050087 	Installation, maintenance, and repair occupations
+P050088 	Production, transportation, and material moving
+	        occupations:
+P050089 	Production occupations
+P050090 	Transportation and material moving occupations:
+P050091 	Supervisors, transportation and material
+	        moving workers
+P050092 	Aircraft and traffic control occupations
+P050093 	Motor vehicle operators
+P050094 	Rail, water and other transportation occupations
+P050095 	Material moving workers
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_6)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	
+SEX BY INDUSTRY BY CLASS OF WORKER FOR THE EMPLOYED
+CIVILIAN POPULATION 16 YEARS AND OVER [65]
+Universe:  Employed civilian population 16 years and over
+P051001 	Total:
+P051002 	Male:
+P051003 	All industries except agriculture, forestry,
+	        fishing and hunting, and mining:
+P051004 	Private for-profit wage and salary workers:
+P051005 	Employee of private company
+P051006 	Self-employed in own incorporated business
+P051007 	Private not-for-profit wage and salary workers
+P051008 	Local government workers
+P051009 	State government workers
+P051010 	Federal government workers
+P051011 	Self-employed workers in own not incorporated
+	        business
+P051012 	Unpaid family workers
+P051013 	Agriculture, forestry, fishing and hunting, and
+	        mining:
+P051014 	Agriculture, forestry, fishing and hunting:
+P051015 	Private for-profit wage and salary workers:
+P051016 	Employee of private company
+P051017 	Self-employed in own incorporated business
+P051018 	Private not-for-profit wage and salary workers
+P051019 	Local government workers
+P051020 	State government workers
+P051021 	Federal government workers
+P051022 	Self-employed workers in own not incorporated
+	        business
+P051023 	Unpaid family workers
+P051024 	Mining:
+P051025 	Private for-profit wage and salary workers:
+P051026 	Employee of private company
+P051027 	Self-employed in own incorporated business
+P051028 	Private not-for-profit wage and salary workers
+P051029 	Local government workers
+P051030 	State government workers
+P051031 	Federal government workers
+P051032  Self-employed workers in own not incorporated
+ 	        business
+P051033 	Unpaid family workers
+P051034 	Female:
+P051035  All industries except agriculture, forestry,
+	        fishing and hunting, and mining:
+P051036 	Private for-profit wage and salary workers:
+P051037 	Employee of private company
+P051038 	Self-employed in own incorporated business
+P051039 	Private not-for-profit wage and salary workers
+P051040 	Local government workers
+P051041 	State government workers
+P051042 	Federal government workers
+P051043  Self-employed workers in own not incorporated
+	        business
+P051044 	Unpaid family workers
+P051045	Agriculture, forestry, fishing and hunting,
+	        and mining:
+P051046 	Agriculture, forestry, fishing and hunting:
+P051047 	Private for-profit wage and salary workers:
+P051048 	Employee of private company
+P051049 	Self-employed in own incorporated business
+P051050 	Private not-for-profit wage and salary workers
+P051051 	Local government workers
+P051052 	State government workers
+P051053 	Federal government workers
+P051054  Self-employed workers in own not incorporated
+	        business
+P051055 	Unpaid family workers
+P051056 	Mining:
+P051057 	Private for-profit wage and salary workers:
+P051058 	Employee of private company
+P051059 	Self-employed in own incorporated business
+P051060 	Private not-for-profit wage and salary workers
+P051061 	Local government workers
+P051062 	State government workers
+P051063 	Federal government workers
+P051064 Self-employed workers in own not incorporated
+	        business
+P051065 	Unpaid family workers
+	
+HOUSEHOLD INCOME IN 1999 [17]
+Universe:  Households
+P052001 	Total:
+P052002 	Less than $10,000
+P052003 	$10,000 to $14,999
+P052004 	$15,000 to $19,999
+P052005 	$20,000 to $24,999
+P052006 	$25,000 to $29,999
+P052007 	$30,000 to $34,999
+P052008 	$35,000 to $39,999
+P052009 	$40,000 to $44,999
+P052010 	$45,000 to $49,999
+P052011 	$50,000 to $59,999
+P052012 	$60,000 to $74,999
+P052013 	$75,000 to $99,999
+P052014 	$100,000 to $124,999
+P052015 	$125,000 to $149,999
+P052016 	$150,000 to $199,999
+P052017 	$200,000 or more
+ 	
+MEDIAN HOUSEHOLD INCOME IN 1999 (DOLLARS) [1]
+Universe:  Households
+P053001 	Median household income in 1999
+	
+AGGREGATE HOUSEHOLD INCOME IN 1999 (DOLLARS) [3]
+Universe:  Households
+P054001 	Aggregate household income in 1999:
+P054002 	Less than $200,000
+P054003 	$200,000 or more
+	
+AGE OF HOUSEHOLDER BY HOUSEHOLD INCOME IN 1999 [120]
+Universe:  Households
+P055001 	Total:
+P055002 	Householder under 25 years:
+P055003 	Less than $10,000
+P055004 	$10,000 to $14,999
+P055005 	$15,000 to $19,999
+P055006 	$20,000 to $24,999
+P055007 	$25,000 to $29,999
+P055008 	$30,000 to $34,999
+P055009 	$35,000 to $39,999
+P055010 	$40,000 to $44,999
+P055011 	$45,000 to $49,999
+P055012 	$50,000 to $59,999
+P055013 	$60,000 to $74,999
+P055014 	$75,000 to $99,999
+P055015 	$100,000 to $124,999
+P055016 	$125,000 to $149,999
+P055017 	$150,000 to $199,999
+P055018 	$200,000 or more
+P055019 	Householder 25 to 34 years:
+P055020 	Less than $10,000
+P055021 	$10,000 to $14,999
+P055022 	$15,000 to $19,999
+P055023 	$20,000 to $24,999
+P055024 	$25,000 to $29,999
+P055025 	$30,000 to $34,999
+P055026 	$35,000 to $39,999
+P055027 	$40,000 to $44,999
+P055028 	$45,000 to $49,999
+P055029 	$50,000 to $59,999
+P055030 	$60,000 to $74,999
+P055031 	$75,000 to $99,999
+P055032 	$100,000 to $124,999
+P055033 	$125,000 to $149,999
+P055034 	$150,000 to $199,999
+P055035 	$200,000 or more
+P055036 	Householder 35 to 44 years:
+P055037 	Less than $10,000
+P055038 	$10,000 to $14,999
+P055039 	$15,000 to $19,999
+P055040 	$20,000 to $24,999
+P055041 	$25,000 to $29,999
+P055042 	$30,000 to $34,999
+P055043 	$35,000 to $39,999
+P055044 	$40,000 to $44,999
+P055045 	$45,000 to $49,999
+P055046 	$50,000 to $59,999
+P055047 	$60,000 to $74,999
+P055048 	$75,000 to $99,999
+P055049 	$100,000 to $124,999
+P055050 	$125,000 to $149,999
+P055051 	$150,000 to $199,999
+P055052 	$200,000 or more
+P055053 	Householder 45 to 54 years:
+P055054 	Less than $10,000
+P055055 	$10,000 to $14,999
+P055056 	$15,000 to $19,999
+P055057 	$20,000 to $24,999
+P055058 	$25,000 to $29,999
+P055059 	$30,000 to $34,999
+P055060 	$35,000 to $39,999
+P055061 	$40,000 to $44,999
+P055062 	$45,000 to $49,999
+P055063 	$50,000 to $59,999
+P055064 	$60,000 to $74,999
+P055065 	$75,000 to $99,999
+P055066 	$100,000 to $124,999
+P055067 	$125,000 to $149,999
+P055068 	$150,000 to $199,999
+P055069 	$200,000 or more
+P055070 	Householder 55 to 64 years:
+P055071 	Less than $10,000
+P055072 	$10,000 to $14,999
+P055073 	$15,000 to $19,999
+P055074 	$20,000 to $24,999
+P055075 	$25,000 to $29,999
+P055076 	$30,000 to $34,999
+P055077 	$35,000 to $39,999
+P055078 	$40,000 to $44,999
+P055079 	$45,000 to $49,999
+P055080 	$50,000 to $59,999
+P055081 	$60,000 to $74,999
+P055082 	$75,000 to $99,999
+P055083 	$100,000 to $124,999
+P055084 	$125,000 to $149,999
+P055085 	$150,000 to $199,999
+P055086 	$200,000 or more
+P055087 	Householder 65 to 74 years:
+P055088 	Less than $10,000
+P055089 	$10,000 to $14,999
+P055090 	$15,000 to $19,999
+P055091 	$20,000 to $24,999
+P055092 	$25,000 to $29,999
+P055093 	$30,000 to $34,999
+P055094 	$35,000 to $39,999
+P055095 	$40,000 to $44,999
+P055096 	$45,000 to $49,999
+P055097 	$50,000 to $59,999
+P055098 	$60,000 to $74,999
+P055099 	$75,000 to $99,999
+P055100 	$100,000 to $124,999
+P055101 	$125,000 to $149,999
+P055102 	$150,000 to $199,999
+P055103 	$200,000 or more
+P055104 	Householder 75 years and over:
+P055105 	Less than $10,000
+P055106 	$10,000 to $14,999
+P055107 	$15,000 to $19,999
+P055108 	$20,000 to $24,999
+P055109 	$25,000 to $29,999
+P055110 	$30,000 to $34,999
+P055111 	$35,000 to $39,999
+P055112 	$40,000 to $44,999
+P055113 	$45,000 to $49,999
+P055114 	$50,000 to $59,999
+P055115 	$60,000 to $74,999
+P055116 	$75,000 to $99,999
+P055117 	$100,000 to $124,999
+P055118 	$125,000 to $149,999
+P055119 	$150,000 to $199,999
+P055120 	$200,000 or more
+ 	
+MEDIAN HOUSEHOLD INCOME IN 1999 (DOLLARS) BY
+AGE OF HOUSEHOLDER [8]
+Universe:  Households
+Median household income in 1999 --
+P056001 	Total
+P056002 	Householder under 25 years
+P056003 	Householder 25 to 34 years
+P056004 	Householder 35 to 44 years
+P056005 	Householder 45 to 54 years
+P056006 	Householder 55 to 64 years
+P056007 	Householder 65 to 74 years
+P056008 	Householder 75 years and over
+	
+AGGREGATE HOUSEHOLD INCOME IN 1999 (DOLLARS)
+BY AGE OF HOUSEHOLDER [8]
+Universe:  Households
+P057001 	Aggregate household income in 1999:
+P057002 	Householder under 25 years
+P057003 	Householder 25 to 34 years
+P057004 	Householder 35 to 44 years
+P057005 	Householder 45 to 54 years
+P057006 	Householder 55 to 64 years
+P057007 	Householder 65 to 74 years
+P057008 	Householder 75 years and over
+	
+EARNINGS IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P058001 	Total:
+P058002 	With earnings
+P058003 	No earnings
+	
+WAGE OR SALARY INCOME IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P059001 	Total:
+P059002 	With wage or salary income
+P059003 	No wage or salary income
+	
+SELF-EMPLOYMENT INCOME IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P060001 	Total:
+P060002 	With self-employment income
+P060003 	No self-employment income
+	
+INTEREST, DIVIDENDS, OR NET RENTAL INCOME IN 1999
+FOR HOUSEHOLDS [3]
+Universe:  Households
+P061001 	Total:
+P061002 	With interest, dividends, or net rental income
+P061003 	No interest, dividends, or net rental income
+	
+SOCIAL SECURITY INCOME IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P062001 	Total:
+P062002 	With Social Security income
+P062003 	No Social Security income
+	
+SUPPLEMENTAL SECURITY INCOME (SSI) IN 1999
+FOR HOUSEHOLDS [3]
+Universe:  Households
+P063001 	Total:
+P063002 	With Supplemental Security Income (SSI)
+P063003 	No Supplemental Security Income (SSI)
+	
+PUBLIC ASSISTANCE INCOME IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P064001 	Total:
+P064002 	With public assistance income
+P064003 	No public assistance income
+	
+RETIREMENT INCOME IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P065001 	Total:
+P065002 	With retirement income
+P065003 	No retirement income
+	
+OTHER TYPES OF INCOME IN 1999 FOR HOUSEHOLDS [3]
+Universe:  Households
+P066001 	Total:
+P066002 	With other types of income
+P066003 	No other types of income
+	
+AGGREGATE EARNINGS IN 1999 (DOLLARS) FOR HOUSEHOLDS [1]
+Universe:  Households
+P067001 	Aggregate earnings in 1999
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_7)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+AGGREGATE WAGE OR SALARY INCOME IN 1999 (DOLLARS)
+FOR HOUSEHOLDS [1]
+Universe:  Households
+P068001 	Aggregate wage or salary income in 1999
+	
+AGGREGATE SELF-EMPLOYMENT INCOME IN 1999 (DOLLARS)
+FOR HOUSEHOLDS [1]
+Universe:  Households
+P069001 	Aggregate self-employment income in 1999
+	
+AGGREGATE INTEREST, DIVIDENDS, OR NET RENTAL INCOME
+IN 1999 (DOLLARS) FOR HOUSEHOLDS [1]
+Universe:  Households
+P070001   Aggregate interest, dividends, or net rental
+ 	        income in 1999
+	
+AGGREGATE SOCIAL SECURITY INCOME IN 1999 (DOLLARS)
+FOR HOUSEHOLDS [1]
+Universe:  Households
+P071001 	Aggregate Social Security income in 1999
+	
+AGGREGATE SUPPLEMENTAL SECURITY INCOME (SSI) IN 1999
+(DOLLARS) FOR HOUSEHOLDS [1]
+Universe:  Households
+P072001 	Aggregate Supplemental Security Income in 1999
+	
+AGGREGATE PUBLIC ASSISTANCE INCOME IN 1999 (DOLLARS)
+FOR HOUSEHOLDS [1]
+Universe:  Households
+P073001 	Aggregate public assistance income in 1999
+	
+AGGREGATE RETIREMENT INCOME IN 1999 (DOLLARS)
+FOR HOUSEHOLDS [1]
+Universe:  Households
+P074001 	Aggregate retirement income in 1999
+	
+AGGREGATE OTHER TYPES OF INCOME IN 1999 (DOLLARS)
+FOR HOUSEHOLDS [1]
+Universe:  Households
+P075001 	Aggregate other types of income in 1999
+	
+FAMILY INCOME IN 1999 [17]
+Universe:  Families
+P076001 	Total:
+P076002 	Less than $10,000
+P076003 	$10,000 to $14,999
+P076004 	$15,000 to $19,999
+P076005 	$20,000 to $24,999
+P076006 	$25,000 to $29,999
+P076007 	$30,000 to $34,999
+P076008 	$35,000 to $39,999
+P076009  $40,000 to $44,999
+P076010  $45,000 to $49,999
+P076011 	$50,000 to $59,999
+P076012 	$60,000 to $74,999
+P076013 	$75,000 to $99,999
+P076014 	$100,000 to $124,999
+P076015 	$125,000 to $149,999
+P076016  $150,000 to $199,999
+P076017 	$200,000 or more
+	
+MEDIAN FAMILY INCOME IN 1999 (DOLLARS) [1]
+Universe:  Families
+P077001 	Median family income in 1999
+	
+AGGREGATE FAMILY INCOME IN 1999 (DOLLARS) [3]
+Universe:  Families
+P078001 	Aggregate family income in 1999:
+P078002 	Less than $200,000
+P078003 	$200,000 or more
+	
+NONFAMILY HOUSEHOLD INCOME IN 1999 [17]
+Universe:  Nonfamily households
+P079001 	Total:
+P079002 	Less than $10,000
+P079003 	$10,000 to $14,999
+P079004 	$15,000 to $19,999
+P079005 	$20,000 to $24,999
+P079006 	$25,000 to $29,999
+P079007 	$30,000 to $34,999
+P079008 	$35,000 to $39,999
+P079009 	$40,000 to $44,999
+P079010 	$45,000 to $49,999
+P079011 	$50,000 to $59,999
+P079012 	$60,000 to $74,999
+P079013 	$75,000 to $99,999
+P079014 	$100,000 to $124,999
+P079015 	$125,000 to $149,999
+P079016 	$150,000 to $199,999
+P079017 	$200,000 or more
+	
+MEDIAN NONFAMILY HOUSEHOLD INCOME IN 1999 (DOLLARS) [1]
+Universe:  Nonfamily households
+P080001 	Median nonfamily household income in 1999
+	
+AGGREGATE NONFAMILY HOUSEHOLD INCOME IN 1999 (DOLLARS) [3]
+Universe:  Nonfamily households
+P081001 	Aggregate nonfamily household income in 1999:
+P081002 	Less than $200,000
+P081003 	$200,000 or more
+	
+PER CAPITA INCOME IN 1999 (DOLLARS) [1]
+Universe:  Total population
+P082001 	Per capita income in 1999
+	
+AGGREGATE INCOME IN 1999 (DOLLARS) FOR THE
+POPULATION 15 YEARS AND OVER [1]
+Universe: Population 15 years and over
+P083001 	Aggregate Income in 1999
+	
+SEX BY EARNINGS IN 1999 FOR THE POPULATION 16 YEARS
+AND OVER WITH EARNINGS [43]
+Universe:  Population 16 years and over with earnings
+P084001 	Total:
+P084002 	Male:
+P084003 	$1 to $2,499 or loss
+P084004  $2,500 to $4,999
+P084005  $5,000 to $7,499
+P084006 	$7,500 to $9,999
+P084007 	$10,000 to $12,499
+P084008 	$12,500 to $14,999
+P084009 	$15,000 to $17,499
+P084010 	$17,500 to $19,999
+P084011 	$20,000 to $22,499
+P084012 	$22,500 to $24,999
+P084013 	$25,000 to $29,999
+P084014 	$30,000 to $34,999
+P084015 	$35,000 to $39,999
+P084016 	$40,000 to $44,999
+P084017 	$45,000 to $49,999
+P084018 	$50,000 to $54,999
+P084019 	$55,000 to $64,999
+P084020 	$65,000 to $74,999
+P084021 	$75,000 to $99,999
+P084022 	$100,000 or more
+P084023 	Female:
+P084024 	$1 to $2,499 or loss
+P084025 	$2,500 to $4,999
+P084026 	$5,000 to $7,499
+P084027 	$7,500 to $9,999
+P084028 	$10,000 to $12,499
+P084029 	$12,500 to $14,999
+P084030 	$15,000 to $17,499
+P084031 	$17,500 to $19,999
+P084032 	$20,000 to $22,499
+P084033 	$22,500 to $24,999
+P084034 	$25,000 to $29,999
+P084035 	$30,000 to $34,999
+P084036 	$35,000 to $39,999
+P084037 	$40,000 to $44,999
+P084038 	$45,000 to $49,999
+P084039 	$50,000 to $54,999
+P084040 	$55,000 to $64,999
+P084041 	$65,000 to $74,999
+P084042 	$75,000 to $99,999
+P084043 	$100,000 or more
+ 	
+MEDIAN EARNINGS IN 1999 (DOLLARS) BY SEX FOR THE
+POPULATION 16 YEARS AND OVER WITH EARNINGS [3]
+Universe:  Population 16 years and over with earnings
+Median earnings in 1999 --
+P085001           Total
+P085002           Male
+P085003           Female
+	
+AGGREGATE EARNINGS IN 1999 (DOLLARS) BY SEX FOR
+THE POPULATION 16 YEARS AND OVER WITH EARNINGS [3]
+Universe:  Population 16 years and over with earnings
+P086001 	Aggregate earnings in 1999:
+P086002 	Male
+P086003 	Female
+	
+POVERTY STATUS IN 1999 BY AGE [17]
+Universe:  Population for whom poverty status is determined
+P087001 	Total:
+P087002 	Income in 1999 below poverty level:
+P087003 	Under 5 years
+P087004 	5 years
+P087005 	6 to 11 years
+P087006 	12 to 17 years
+P087007  18 to 64 years
+P087008 	65 to 74 years
+P087009 	75 years and over
+P087010 	Income in 1999 at or above poverty level:
+P087011 	Under 5 years
+P087012 	5 years
+P087013 	6 to 11 years
+P087014 	12 to 17 years
+P087015 	18 to 64 years
+P087016 	65 to 74 years
+P087017 	75 years and over
+	
+RATIO OF INCOME IN 1999 TO POVERTY LEVEL [10]
+Universe:  Population for whom poverty status is determined
+P088001 	Total:
+P088002 	Under .50
+P088003 	.50 to .74
+P088004 	.75 to .99
+P088005 	1.00 to 1.24
+P088006 	1.25 to 1.49
+P088007 	1.50 to 1.74
+P088008 	1.75 to 1.84
+P088009 	1.85 to 1.99
+P088010 	2.00 and over
+	
+POVERTY STATUS IN 1999 BY AGE BY HOUSEHOLD TYPE [39]
+Universe:  Population for whom poverty status is determined
+P089001 	Total:
+P089002 	Income in 1999 below poverty level:
+P089003 	Under 65 years:
+P089004 	In married-couple families
+P089005 	In other families:
+P089006 	Male householder, no wife present
+P089007 	Female householder, no husband present
+P089008 	Unrelated individuals
+P089009 	65 to 74 years:
+P089010 	In married-couple families
+P089011 	In other families:
+P089012 	Male householder, no wife present
+P089013 	Female householder, no husband present
+P089014 	Unrelated individuals
+P089015 	75 years and over:
+P089016 	In married-couple families
+P089017 	In other families:
+P089018 	Male householder, no wife present
+P089019 	Female householder, no husband present
+P089020 	Unrelated individuals
+P089021 	Income in 1999 at or above poverty level:
+P089022 	Under 65 years:
+P089023 	In married-couple families
+P089024 	In other families:
+P089025 	Male householder, no wife present
+P089026 	Female householder, no husband present
+P089027 	Unrelated individuals
+P089028 	65 to 74 years:
+P089029 	In married-couple families
+P089030 	In other families:
+P089031 	Male householder, no wife present
+P089032 	Female householder, no husband present
+P089033 	Unrelated individuals
+P089034 	75 years and over:
+P089035 	In married-couple families
+P089036 	In other families:
+P089037 	Male householder, no wife present
+P089038 	Female householder, no husband present
+P089039 	Unrelated individuals
+	
+POVERTY STATUS IN 1999 OF FAMILIES BY FAMILY TYPE BY
+PRESENCE OF RELATED CHILDREN UNDER 18 YEARS BY AGE OF
+RELATED CHILDREN [41]
+Universe:  Families
+P090001 	Total:
+P090002 	Income in 1999 below poverty level:
+P090003 	Married-couple family:
+P090004 	With related children under 18 years:
+P090005 	Under 5 years only
+P090006 	Under 5 years and 5 to 17 years
+P090007 	5 to 17 years only
+P090008 	No related children under 18 years
+P090009 	Other family:
+P090010 	Male householder, no wife present:
+P090011 	With related children under 18 years:
+P090012 	Under 5 years only
+P090013 	Under 5 years and 5 to 17 years
+P090014 	5 to 17 years only
+P090015 	No related children under 18 years
+P090016 	Female householder, no husband present:
+P090017 	With related children under 18 years:
+P090018 	Under 5 years only
+P090019 	Under 5 years and 5 to 17 years
+P090020 	5 to 17 years only
+P090021 	No related children under 18 years
+P090022 	Income in 1999 at or above poverty level:
+P090023 	Married-couple family:
+P090024 	With related children under 18 years:
+P090025 	Under 5 years only
+P090026 	Under 5 years and 5 to 17 years
+P090027 	5 to 17 years only
+P090028 	No related children under 18 years
+P090029 	Other family:
+P090030 	Male householder, no wife present:
+P090031 	With related children under 18 years:
+P090032 	Under 5 years only
+P090033 	Under 5 years and 5 to 17 years
+P090034 	5 to 17 years only
+P090035 	No related children under 18 years
+P090036 	Female householder, no husband present:
+P090037 	With related children under 18 years:
+P090038 	Under 5 years only
+P090039 	Under 5 years and 5 to 17 years
+P090040 	5 to 17 years only
+P090041 	No related children under 18 years
+ 	
+AGGREGATE INCOME DEFICIT IN 1999 (DOLLARS)
+FOR FAMaLIES BY FAMILY TYPE [5]
+Universe:  Families with income in 1999 below
+the poverty level
+P091001 	Aggregate income deficit in 1999:
+P091002 	Married-couple family
+P091003 	Other family:
+P091004 	Male householder, no wife present
+P091005 	Female householder, no husband present
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_56)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+HOUSING UNITS [1]
+Universe:  Housing units
+H001001 	Total
+	
+UNWEIGHTED SAMPLE HOUSING UNITS BY OCCUPANCY STATUS [3]
+Universe:  Housing units
+Total:                        H002001   56 9
+H002002 	Occupied
+H002003 	Vacant
+	
+100-PERCENT COUNT OF HOUSING UNITS [1]
+Universe:  Housing units
+H003001 	Total
+	
+PERCENT OF HOUSING UNITS IN SAMPLE BY OCCUPANCY STATUS [2]
+(1 expressed decimal)
+Universe:  Housing units
+H004001 	Percent of occupied housing units in sample
+H004002 	Percent of vacant housing units in sample
+	
+URBAN AND RURAL [7]
+Universe:  Housing units
+H005001 	Total:
+H005002 	Urban:
+H005003 	Inside urbanized areas
+H005004 	Inside urban clusters
+H005005 	Rural:
+H005006 	Farm
+H005007 	Nonfarm
+	
+OCCUPANCY STATUS [3]
+Universe:  Housing units
+H006001 	Total:
+H006002 	Occupied
+H006003 	Vacant
+	
+TENURE [3]
+Universe:  Occupied housing units
+H007001 	Total:
+H007002 	Owner occupied
+H007003 	Renter occupied
+	
+VACANCY STATUS [7]
+Universe:  Vacant housing units
+H008001 	Total:
+H008002 	For rent
+H008003 	For sale only
+H008004 	Rented or sold, not occupied
+H008005 	For seasonal, recreational, or occasional use
+H008006 	For migrant workers
+H008007 	Other vacant
+	
+RACE OF HOUSEHOLDER [8]
+Universe:  Occupied housing units
+H009001 	Total:
+H009002 	Householder who is White alone
+H009003 	Householder who is Black or African American alone
+	Householder who is American Indian and
+H009004 	Alaska Native alone
+H009005 	Householder who is Asian alone
+	        Householder who is Native Hawaiian and
+H009006 	Other Pacific Islander alone
+H009007 	Householder who is Some other race alone
+H009008 	Householder who is Two or more races
+
+HISPANIC OR LATINO HOUSEHOLDER BY RACE OF HOUSEHOLDER [17]
+Universe:  Occupied housing units
+H010001 	Total:
+H010002 	Not Hispanic or Latino householder:
+H010003 	Householder who is White alone
+H010004 	Householder who is Black or African American alone
+	        Householder who is American Indian and
+H010005 	Alaska Native alone
+H010006 	Householder who is Asian alone
+	        Householder who is Native Hawaiian and
+H010007 	Other Pacific Islander alone
+H010008 	Householder who is Some other race alone
+H010009 	Householder who is Two or more races
+H010010 	Hispanic or Latino householder:
+H010011 	Householder who is White alone
+H010012 	Householder who is Black or African American alone
+	        Householder who is American Indian and
+H010013 	Alaska Native alone
+H010014 	Householder who is Asian alone
+	        Householder who is Native Hawaiian and
+H010015 	Other Pacific Islander alone
+H010016 	Householder who is Some other race alone
+H010017 	Householder who is Two or more races
+	
+TENURE BY RACE OF HOUSEHOLDER [17]
+Universe:  Occupied housing units
+H011001 	Total:
+H011002 	Owner occupied:
+H011003 	Householder who is White alone
+H011004 	Householder who is Black or African American alone
+ 	        Householder who is American Indian and
+H011005 	Alaska Native alone
+H011006 	Householder who is Asian alone
+H011007 Householder who is Native Hawaiian and
+	        Other Pacific Islander alone
+H011008 	Householder who is Some other race alone
+H011009 	Householder who is Two or more races
+H011010 	Renter occupied:
+H011011 	Householder who is White alone
+H011012 	Householder who is Black or African American alone
+	        Householder who is American Indian and
+H011013 	Alaska Native alone
+H011014 	Householder who is Asian alone
+	        Householder who is Native Hawaiian and
+H011015 	Other Pacific Islander alone
+H011016 	Householder who is Some other race alone
+H011017 	Householder who is Two or more races
+	
+TENURE (HISPANIC OR LATINO HOUSEHOLDER) [3]
+Universe:  Occupied housing units with a householder
+who is Hispanic or Latino
+H012001 	Total:
+H012002 	Owner occupied
+H012003 	Renter occupied
+	
+TENURE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER) [3]
+Universe:  Occupied housing units with a householder
+who is White alone, not Hispanic or Latino
+H013001 	Total:
+H013002 	Owner occupied
+H013003 	Renter occupied
+	
+TENURE BY AGE OF HOUSEHOLDER [21]
+Universe:  Occupied housing units
+H014001 	Total:
+H014002 	Owner occupied:
+H014003 	Householder 15 to 24 years
+H014004 	Householder 25 to 34 years
+H014005 	Householder 35 to 44 years
+H014006 	Householder 45 to 54 years
+H014007 	Householder 55 to 59 years
+H014008 	Householder 60 to 64 years
+H014009 	Householder 65 to 74 years
+H014010 	Householder 75 to 84 years
+H014011 	Householder 85 years and over
+H014012 	Renter occupied:
+H014013 	Householder 15 to 24 years
+H014014 	Householder 25 to 34 years
+H014015 	Householder 35 to 44 years
+H014016 	Householder 45 to 54 years
+H014017 	Householder 55 to 59 years
+H014018 	Householder 60 to 64 years
+H014019 	Householder 65 to 74 years
+H014020 	Householder 75 to 84 years
+H014021 	Householder 85 years and over
+	
+TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE [3]
+Universe:  Population in occupied housing units
+H015001 	Total population in occupied housing units:
+H015002  Owner occupied
+H015003 	Renter occupied
+	
+HOUSEHOLD SIZE [8]
+Universe:  Occupied housing units
+H016001 	Total:
+H016002 	1-person household
+H016003 	2-person household
+H016004 	3-person household
+H016005 	4-person household
+H016006 	5-person household
+H016007 	6-person household
+H016008 	7-or-more-person household
+	
+TENURE BY HOUSEHOLD SIZE [17]
+Universe:  Occupied housing units
+H017001         Total:
+H017002         Owner occupied:
+H017003         1-person household
+H017004         2-person household
+H017005 	3-person household
+H017006 	4-person household
+H017007 	5-person household
+H017008 	6-person household
+H017009 	7-or-more-person household
+H017010 	Renter occupied:
+H017011 	1-person household
+H017012 	2-person household
+H017013 	3-person household
+H017014 	4-person household
+H017015 	5-person household
+H017016  	6-person household
+H017017 	7-or-more-person household
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                      Table (SUM3_58)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEDIAN NUMBER OF ROOMS BY TENURE [3]   (1 expressed decimal)
+Universe:  Occupied housing units
+Median number of rooms --
+H027001 	Total
+H027002 	Owner occupied
+H027003 	Renter occupied
+	
+AGGREGATE NUMBER OF ROOMS BY TENURE [3]
+Universe:  Occupied housing units
+H028001 	Aggregate number of rooms:
+H028002 	Owner occupied
+H028003 	Renter occupied
+	
+AGGREGATE NUMBER OF ROOMS BY VACANCY STATUS [7]
+Universe:  Vacant housing units
+H029001 	Aggregate number of rooms:
+H029002 	For rent
+H029003 	For sale only
+H029004 	Rented or sold, not occupied
+H029005 	For seasonal, recreational, or occasional use
+H029006 	For migrant workers
+H029007 	Other vacant
+	
+UNITS IN STRUCTURE [11]
+Universe:  Housing units
+H030001 	Total:
+H030002 	1, detached
+H030003 	1, attached
+H030004 	2
+H030005 	3 or 4
+H030006 	5 to 9
+H030007 	10 to 19
+H030008 	20 to 49
+H030009 	50 or more
+H030010 	Mobile home
+H030011 	Boat, RV, van, etc.
+	
+UNITS IN STRUCTURE FOR VACANT HOUSING UNITS [11]
+Universe:  Vacant housing units
+H031001 	Total:
+H031002 	1, detached
+H031003 	1, attached
+H031004 	2
+H031005 	3 or 4
+H031006 	5 to 9
+H031007 	10 to 19
+H031008 	20 to 49
+H031009 	50 or more
+H031010 	Mobile home
+H031011 	Boat, RV, van, etc.
+	
+TENURE BY UNITS IN STRUCTURE [23]
+Universe:  Occupied housing units
+H032001 	Total:
+H032002 	Owner occupied:
+H032003 	1, detached
+H032004 	1, attached
+H032005 	2
+H032006 	3 or 4
+H032007 	5 to 9
+H032008 	10 to 19
+H032009 	20 to 49
+H032010 	50 or more
+H032011 	Mobile home
+H032012 	Boat, RV, van, etc.
+H032013 	Renter occupied:
+H032014 	1, detached
+H032015 	1, attached
+H032016 	2
+H032017 	3 or 4
+H032018 	5 to 9
+H032019 	10 to 19
+H032020 	20 to 49
+H032021 	50 or more
+H032022 	Mobile home
+H032023 	Boat, RV, van, etc.
+	
+TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY
+TENURE BY UNITS ISTRUCTURE [23]
+Universe:  Population in occupied housing units
+H033001 	Total population in occupied housing units:
+H033002 	Owner occupied:
+H033003 	1, detached
+H033004 	1, attached
+H033005 	2
+H033006 	3 or 4
+H033007 	5 to 9
+H033008 	10 to 19
+H033009 	20 to 49
+H033010 	50 or more
+H033011 	Mobile home
+H033012 	Boat, RV, van, etc.
+H033013 	Renter occupied:
+H033014 	1, detached
+H033015 	1, attached
+H033016 	2
+H033017 	3 or 4
+H033018 	5 to 9
+H033019 	10 to 19
+H033020 	20 to 49
+H033021 	50 or more
+H033022 	Mobile home
+H033023 	Boat, RV, van, etc.
+	
+YEAR STRUCTURE BUILT [10]
+Universe:  Housing units
+H034001 	Total:
+H034002 	Built 1999 to March 2000
+H034003 	Built 1995 to 1998
+H034004 	Built 1990 to 1994
+H034005 	Built 1980 to 1989
+H034006 	Built 1970 to 1979
+H034007 	Built 1960 to 1969
+H034008 	Built 1950 to 1959
+H034009 	Built 1940 to 1949
+H034010 	Built 1939 or earlier
+	
+MEDIAN YEAR STRUCTURE BUILT [1]
+Universe:  Housing units
+H035001 	Median year structure built
+	
+TENURE BY YEAR STRUCTURE BUILT [21]
+Universe:  Occupied housing units
+H036001 	Total:
+H036002 	Owner occupied:
+H036003 	Built 1999 to March 2000
+H036004 	Built 1995 to 1998
+H036005 	Built 1990 to 1994
+H036006 	Built 1980 to 1989
+H036007 	Built 1970 to 1979
+H036008 	Built 1960 to 1969
+H036009 	Built 1950 to 1959
+H036010 	Built 1940 to 1949
+H036011 	Built 1939 or earlier
+H036012 	Renter occupied:
+H036013 	Built 1999 to March 2000
+H036014 	Built 1995 to 1998
+H036015 	Built 1990 to 1994
+H036016 	Built 1980 to 1989
+H036017 	Built 1970 to 1979
+H036018 	Built 1960 to 1969
+H036019 	Built 1950 to 1959
+H036020 	Built 1940 to 1949
+H036021 	Built 1939 or earlier
+	
+MEDIAN YEAR STRUCTURE BUILT BY TENURE [3]
+Universe:  Occupied housing units
+Median year structure built --
+H037001 	Total
+H037002 	Owner occupied
+H037003 	Renter occupied
+	
+TENURE BY YEAR HOUSEHOLDER MOVED INTO UNIT [15]
+Universe:  Occupied housing units
+H038001 	Total:
+H038002 	Owner occupied:
+H038003 	Moved in 1999 to March 2000
+H038004 	Moved in 1995 to 1998
+H038005 	Moved in 1990 to 1994
+H038006 	Moved in 1980 to 1989
+H038007 	Moved in 1970 to 1979
+H038008 	Moved in 1969 or earlier
+H038009 	Renter occupied:
+H038010 	Moved in 1999 to March 2000
+H038011 	Moved in 1995 to 1998
+H038012 	Moved in 1990 to 1994
+H038013 	Moved in 1980 to 1989
+H038014 	Moved in 1970 to 1979
+H038015 	Moved in 1969 or earlier
+	
+MEDIAN YEAR HOUSEHOLDER MOVED INTO UNIT BY TENURE [3]
+Universe:  Occupied housing units
+Median year householder moved into unit --
+H039001 	Total
+H039002 	Owner occupied
+H039003 	Renter occupied
+	
+HOUSE HEATING FUEL [10]
+Universe:  Occupied housing units
+H040001 	Total:
+H040002 	Utility gas
+H040003 	Bottled, tank, or LP gas
+H040004 	Electricity
+H040005 	Fuel oil, kerosene, etc.
+H040006 	Coal or coke
+H040007 	Wood
+H040008 	Solar energy
+H040009 	Other fuel
+H040010 	No fuel used
+	
+BEDROOMS [7]
+Universe:  Housing units
+H041001 	Total:
+H041002 	No bedroom
+H041003 	1 bedroom
+H041004 	2 bedrooms
+H041005 	3 bedrooms
+H041006 	4 bedrooms
+H041007 	5 or more bedrooms
+	
+TENURE BY BEDROOMS [15]
+Universe:  Occupied housing units
+H042001 	Total:
+H042002 	Owner occupied:
+H042003 	No bedroom
+H042004 	1 bedroom
+H042005 	2 bedrooms
+H042006 	3 bedrooms
+H042007 	4 bedrooms
+H042008 	5 or more bedrooms
+H042009 	Renter occupied:
+H042010 	No bedroom
+H042011 	1 bedroom
+H042012 	2 bedrooms
+H042013 	3 bedrooms
+H042014 	4 bedrooms
+H042015 	5 or more bedrooms
+	
+TENURE BY TELEPHONE SERVICE AVAILABLE BY AGE OF
+HOUSEHOLDER [35]
+Universe:  Occupied housing units
+H043001 	Total:
+H043002 	Owner occupied:
+H043003 	With telephone service available:
+H043004 	Householder 15 to 24 years
+H043005 	Householder 25 to 34 years
+H043006 	Householder 35 to 44 years
+H043007 	Householder 45 to 54 years
+H043008 	Householder 55 to 64 years
+H043009 	Householder 65 to 74 years
+H043010 	Householder 75 years and over
+H043011 	No telephone service available:
+H043012 	Householder 15 to 24 years
+H043013 	Householder 25 to 34 years
+H043014 	Householder 35 to 44 years
+H043015 	Householder 45 to 54 years
+H043016 	Householder 55 to 64 years
+H043017 	Householder 65 to 74 years
+H043018 	Householder 75 years and over
+H043019 	Renter occupied:
+H043020 	With telephone service available:
+H043021 	Householder 15 to 24 years
+H043022 	Householder 25 to 34 years
+H043023 	Householder 35 to 44 years
+H043024 	Householder 45 to 54 years
+H043025 	Householder 55 to 64 years
+H043026 	Householder 65 to 74 years
+H043027 	Householder 75 years and over
+H043028 	No telephone service available:
+H043029 	Householder 15 to 24 years
+H043030 	Householder 25 to 34 years
+H043031 	Householder 35 to 44 years
+H043032 	Householder 45 to 54 years
+H043033 	Householder 55 to 64 years
+H043034 	Householder 65 to 74 years
+H043035 	Householder 75 years and over
+	
+TENURE BY VEHICLES AVAILABLE [15]
+Universe:  Occupied housing units
+H044001 	Total:
+H044002 	Owner occupied:
+H044003 	No vehicle available
+H044004 	1 vehicle available
+H044005 	2 vehicles available
+H044006 	3 vehicles available
+H044007 	4 vehicles available
+H044008 	5 or more vehicles available
+H044009 	Renter occupied:
+H044010 	No vehicle available
+H044011 	1 vehicle available
+H044012 	2 vehicles available
+H044013 	3 vehicles available
+H044014 	4 vehicles available
+H044015 	5 or more vehicles available
+
+
+</eaover></overview></eainfo><mdDateSt Sync="TRUE">20120930</mdDateSt><mdFileID Sync="TRUE">{6D0C2371-0516-4BFE-B724-397E2479F5CE}</mdFileID></metadata>
